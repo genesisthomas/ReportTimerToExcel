@@ -40,8 +40,8 @@ public class TimerExtractor
     public static void main( String[] args )
     {  	
     	sCloudUrl = args[0];
-    	String user = args[1];
-    	String password = args[2];
+    	String user = StringEncrypt.decryptXOR(args[1], "Perfect");
+    	String password = StringEncrypt.decryptXOR(args[2], "Perfect");
     	String scriptKey = args[3];  
     	String excelPath = args[4];
     	Integer anchorTime = -1;
