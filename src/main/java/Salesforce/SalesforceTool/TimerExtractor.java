@@ -45,7 +45,7 @@ public class TimerExtractor
     	String scriptKey = args[3];  
     	String excelPath = args[4];
     	Integer anchorTime = -1;
-    	Integer offset = 20000;
+    	Integer offset = 22000;
     	String sTimeZone = args[4]; //"GMT+2";//"GMT-4"; //also possible GMT+2
      	
     	AddLastExecutionToExcel(user, password, scriptKey, sTimeZone, excelPath );
