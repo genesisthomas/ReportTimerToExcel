@@ -34,22 +34,24 @@ import com.perfectomobile.httpclient.execution.ExecutionsHttpClient;
 
 public class TimerExtractor 
 {
+	static String scriptKey;
+	static String user;
 	static String sCloudUrl = "";
 	//static Credentials credentials;
 	
     public static void main( String[] args )
     {  	
     	sCloudUrl = args[0];
-    	String user = StringEncrypt.decryptXOR(args[1], "Perfect");
+    	user = StringEncrypt.decryptXOR(args[1], "Perfect");
     	String password = StringEncrypt.decryptXOR(args[2], "Perfect");
-    	String scriptKey = args[3];  
+    	scriptKey = args[3];  
     	String excelPath = args[4];
     	Integer anchorTime = -1;
-    	Integer offset = 22000;
+    	Integer offset = 30000;
     	String sTimeZone = args[5]; //"GMT+2";//"GMT-4"; //also possible GMT+2
      	
-    	AddLastExecutionToExcel(user, password, scriptKey, sTimeZone, excelPath );
-    	//AddExecutionsFromTimeframe(user, password, scriptKey, anchorTime, offset, sTimeZone, excelPath);
+    	//AddLastExecutionToExcel(user, password, scriptKey, sTimeZone, excelPath );
+    	AddExecutionsFromTimeframe(user, password, scriptKey, anchorTime, offset, sTimeZone, excelPath);
  	    
 	    System.out.print("FINISHED");
     }
@@ -97,7 +99,7 @@ public class TimerExtractor
        	String sReportKey =getLastReportID(user,password,scriptKey);
     	System.out.println("ReportKey is: " + sReportKey);    	
     	
-  //  	String sFilepath = downloadReport(user, password, sReportKey, "xml", credentials);
+    	String sFilepath = downloadReport(user, password, sReportKey, MediaType.HTML,"PerfectoReport");
     	Document document = downloadReportAsDom(user, password, sReportKey);
     	//Get Alternative Dom4J Document 
 	    LinkedHashMap<String, String> mTimerResults;	    
@@ -135,6 +137,7 @@ public class TimerExtractor
 	private static Document downloadReportAsDom(String user, String password, String sReportKey) {
 		
     	com.perfectomobile.httpclient.execution.ExecutionsHttpClient executionsClient = new ExecutionsHttpClient(sCloudUrl, new Credentials(user, password));
+    	
     	Document document = null;
     	try {
 			document = executionsClient.downloadReportDocument(sReportKey);
@@ -152,6 +155,31 @@ public class TimerExtractor
 	public static Map<String, String> getTimers(Document document, String sTimeZone)
     {
     	Map<String, String> timerResults = new LinkedHashMap<String, String>();
+    	
+    	// Getting ReportID
+    	Node reportIDNode = document.selectSingleNode("execution/info/dataItems/dataItem[@label=\"report\"]/key");
+    	String reportID = reportIDNode.getStringValue();
+    	String privatepublic = reportID.replace(":", "/"+user+"/");
+    	
+    	//	+++++ Getting Video Link
+    	//https://salesforce.perfectomobile.com/nexperience/videoPlayer.jsp?liveUri=rtmp://salesforce.perfectomobile.com/vod&serverId=null&file=/private/rajp@perfectomobile.com/Raj_SalesForceCaseScript_16-07-14_10_42_01_27441.xml.files/video/DD4A3714896782AF31F770D2871A4DDBDBD6632F_10_42_02_1106831.flv&manufacturer=Apple&model=iPhone-SE&videoWidth=640&videoHeight=1136
+    	Node videoNode = document.selectSingleNode("execution/input/handsets/handset/recordings/recording/dataItems/dataItem/attachment");
+    	String videoName="";
+		try {
+			videoName = videoNode.getStringValue();
+			videoName=videoName.replace("\\", "/");
+			videoName= "https://salesforce.perfectomobile.com/nexperience/videoPlayer.jsp?liveUri=rtmp://salesforce.perfectomobile.com/vod&serverId=null&file="+
+			"/"+privatepublic+
+			".files/"+
+			videoName +
+			"&manufacturer=Apple&model=iPhone-SE&videoWidth=640&videoHeight=1136";
+			System.out.println("This is the video: "+videoName);
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+    	
+    	    	
     	//+++++ Getting Date/Time Info:
     	Node timeNode = document.selectSingleNode("execution/info/times/flowTimes/start/millis");
     	String Millis = timeNode.getStringValue();
@@ -185,6 +213,7 @@ public class TimerExtractor
      		System.out.println("nameNode: " +nameNode.getStringValue());
      		timerResults.put(nameNode.getStringValue(), valueNode.getStringValue());
          }
+    	 timerResults.put("VideoLink", videoName);
     	 return timerResults;
     }
 
@@ -253,7 +282,7 @@ public static List<String> getReportIDs (String user, String password, String sc
 					"&scriptKey="+scriptKey  +
 					"&time.offset="+offset.toString() +
 					"&time.type=completed");
-			System.out.println(url.toString());			
+			//System.out.println(url.toString());			
 			response = HttpClient.sendRequest(url);
 			InputStream instr = response.getResponseStream();
 			String message = org.apache.commons.io.IOUtils.toString(instr);
