@@ -161,6 +161,15 @@ public class TimerExtractor
     	String reportID = reportIDNode.getStringValue();
     	String privatepublic = reportID.replace(":", "/"+user+"/");
     	
+    	//ToAdd: Link to report
+    	//
+    	String reportLink = "https://salesforce.perfectomobile.com/services/reports/"+
+    	reportID+
+    	"?operation=download&format=html&user="+
+    	user +
+    	"&password=";
+    	timerResults.put("ReportLink",reportLink);
+    	
     	//	+++++ Getting Video Link
     	//https://salesforce.perfectomobile.com/nexperience/videoPlayer.jsp?liveUri=rtmp://salesforce.perfectomobile.com/vod&serverId=null&file=/private/rajp@perfectomobile.com/Raj_SalesForceCaseScript_16-07-14_10_42_01_27441.xml.files/video/DD4A3714896782AF31F770D2871A4DDBDBD6632F_10_42_02_1106831.flv&manufacturer=Apple&model=iPhone-SE&videoWidth=640&videoHeight=1136
     	Node videoNode = document.selectSingleNode("execution/input/handsets/handset/recordings/recording/dataItems/dataItem/attachment");
