@@ -50,8 +50,8 @@ public class TimerExtractor
     	Integer offset = 30000;
     	String sTimeZone = args[5]; //"GMT+2";//"GMT-4"; //also possible GMT+2
      	
-    	//AddLastExecutionToExcel(user, password, scriptKey, sTimeZone, excelPath );
-    	AddExecutionsFromTimeframe(user, password, scriptKey, anchorTime, offset, sTimeZone, excelPath);
+    	AddLastExecutionToExcel(user, password, scriptKey, sTimeZone, excelPath );
+    	//AddExecutionsFromTimeframe(user, password, scriptKey, anchorTime, offset, sTimeZone, excelPath);
  	    
 	    System.out.print("FINISHED");
     }
