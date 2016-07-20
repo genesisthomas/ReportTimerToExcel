@@ -99,7 +99,7 @@ public class TimerExtractor
        	String sReportKey =getLastReportID(user,password,scriptKey);
     	System.out.println("ReportKey is: " + sReportKey);    	
     	
-    	String sFilepath = downloadReport(user, password, sReportKey, MediaType.HTML,"PerfectoReport");
+    	String sFilepath = downloadReport(user, password, sReportKey, MediaType.XML,"PerfectoReport");
     	Document document = downloadReportAsDom(user, password, sReportKey);
     	//Get Alternative Dom4J Document 
 	    LinkedHashMap<String, String> mTimerResults;	    
@@ -172,16 +172,17 @@ public class TimerExtractor
     	
     	//	+++++ Getting Video Link
     	//https://salesforce.perfectomobile.com/nexperience/videoPlayer.jsp?liveUri=rtmp://salesforce.perfectomobile.com/vod&serverId=null&file=/private/rajp@perfectomobile.com/Raj_SalesForceCaseScript_16-07-14_10_42_01_27441.xml.files/video/DD4A3714896782AF31F770D2871A4DDBDBD6632F_10_42_02_1106831.flv&manufacturer=Apple&model=iPhone-SE&videoWidth=640&videoHeight=1136
-    	Node videoNode = document.selectSingleNode("execution/input/handsets/handset/recordings/recording/dataItems/dataItem/attachment");
+    	//Node videoNode = document.selectSingleNode("execution/input/handsets/handset/recordings/recording/dataItems/dataItem/attachment");
+    	Node videoNode = document.selectSingleNode("execution/input/handsets/handset/recordings/recording/dataItems/dataItem[@label=\"recordingDownload\"]/file");
     	String videoName="";
 		try {
 			videoName = videoNode.getStringValue();
-			videoName=videoName.replace("\\", "/");
+			/*videoName=videoName.replace("\\", "/");
 			videoName= "https://salesforce.perfectomobile.com/nexperience/videoPlayer.jsp?liveUri=rtmp://salesforce.perfectomobile.com/vod&serverId=null&file="+
 			"/"+privatepublic+
 			".files/"+
 			videoName +
-			"&manufacturer=Apple&model=iPhone-SE&videoWidth=640&videoHeight=1136";
+			"&manufacturer=Apple&model=iPhone-SE&videoWidth=640&videoHeight=1136";*/
 			System.out.println("This is the video: "+videoName);
 		} catch (Exception e) {
 			// TODO Auto-generated catch block

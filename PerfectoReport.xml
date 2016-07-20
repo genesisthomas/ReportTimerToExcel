@@ -6,37 +6,37 @@
     <times>
       <flowTimes>
         <start>
-          <millis>1468477621358</millis>
-          <formatted>2016-07-14:06-27-01 GMT</formatted>
-          <server>2016-07-14:06-27-01 +0000</server>
+          <millis>1469019118052</millis>
+          <formatted>2016-07-20:12-51-58 GMT</formatted>
+          <server>2016-07-20:12-51-58 +0000</server>
         </start>
         <end>
-          <millis>1468477892534</millis>
-          <formatted>2016-07-14:06-31-32 GMT</formatted>
-          <server>2016-07-14:06-31-32 +0000</server>
+          <millis>1469019447027</millis>
+          <formatted>2016-07-20:12-57-27 GMT</formatted>
+          <server>2016-07-20:12-57-27 +0000</server>
         </end>
       </flowTimes>
       <recordingTimes>
         <start>
-          <millis>1468477626571</millis>
-          <formatted>2016-07-14:06-27-06 GMT</formatted>
-          <server>2016-07-14:06-27-06 +0000</server>
+          <millis>1469019122146</millis>
+          <formatted>2016-07-20:12-52-02 GMT</formatted>
+          <server>2016-07-20:12-52-02 +0000</server>
         </start>
         <end>
-          <millis>1468477889004</millis>
-          <formatted>2016-07-14:06-31-29 GMT</formatted>
-          <server>2016-07-14:06-31-29 +0000</server>
+          <millis>1469019438777</millis>
+          <formatted>2016-07-20:12-57-18 GMT</formatted>
+          <server>2016-07-20:12-57-18 +0000</server>
         </end>
       </recordingTimes>
     </times>
     <source>external</source>
-    <id>rajp@perfectomobile.com_Raj_SalesForceCaseScript_16-07-14_06_27_01_27187</id>
+    <id>rajp@perfectomobile.com_Raj_SalesForceCaseScript_16-07-20_12_51_57_14352</id>
     <dataItems>
       <dataItem label="script" type="script">
         <key repository="scripts" owner="rajp@perfectomobile.com">PRIVATE:Raj_SalesForceCaseScript.xml</key>
       </dataItem>
       <dataItem label="report" type="execution">
-        <key repository="executions" owner="rajp@perfectomobile.com">PRIVATE:Raj_SalesForceCaseScript_16-07-14_06_27_01_27187.xml</key>
+        <key repository="executions" owner="rajp@perfectomobile.com">PRIVATE:Raj_SalesForceCaseScript_16-07-20_12_51_57_14352.xml</key>
       </dataItem>
     </dataItems>
     <user>rajp@perfectomobile.com</user>
@@ -45,7 +45,7 @@
     <variables>
       <variable type="string">
         <name>deviceID</name>
-        <value>DD4A3714896782AF31F770D2871A4DDBDBD6632F</value>
+        <value>3133BB296C46FA2250362A227BA462A56ED11A45</value>
       </variable>
       <variable type="string">
         <name>accountsTimer</name>
@@ -66,35 +66,43 @@
     </variables>
     <handsets>
       <handset>
-        <id>DD4A3714896782AF31F770D2871A4DDBDBD6632F</id>
+        <id>3133BB296C46FA2250362A227BA462A56ED11A45</id>
         <properties>
           <property>
             <name displayName="Id">id</name>
-            <value>DD4A3714896782AF31F770D2871A4DDBDBD6632F</value>
+            <value>3133BB296C46FA2250362A227BA462A56ED11A45</value>
           </property>
           <property>
             <name displayName="Device Id">deviceId</name>
-            <value>DD4A3714896782AF31F770D2871A4DDBDBD6632F</value>
+            <value>3133BB296C46FA2250362A227BA462A56ED11A45</value>
+          </property>
+          <property>
+            <name displayName="Phone Number">phoneNumber</name>
+            <value>+1 (781) 460-0297</value>
           </property>
           <property>
             <name displayName="Native Imei">nativeImei</name>
-            <value>355436072762138</value>
+            <value>354449061777034</value>
           </property>
           <property>
             <name displayName="Wifi Mac Address">wifiMacAddress</name>
-            <value>e0:c7:67:bc:fb:af</value>
+            <value>48:43:7c:c9:0b:4d</value>
           </property>
           <property>
             <name displayName="Location">location</name>
-            <value>NA-US-PHX</value>
+            <value>NA-US-BOS</value>
           </property>
           <property>
             <name displayName="Last Cradle Id">lastCradleId</name>
-            <value>PHX-4080-4-2/VIRTUAL/02</value>
+            <value>WF-CG29-64/VIRTUAL/01</value>
           </property>
           <property>
             <name displayName="Power Control">powerControl</name>
             <value>reboot</value>
+          </property>
+          <property>
+            <name displayName="Operator">operator</name>
+            <value>Verizon-United States of America</value>
           </property>
           <property>
             <name displayName="Language">language</name>
@@ -102,7 +110,7 @@
           </property>
           <property>
             <name displayName="Template">template</name>
-            <value>Apple-iPhone-SE-MacCam9</value>
+            <value>Apple-iPhone-6-MacCam9</value>
           </property>
           <property>
             <name displayName="Manufacturer">manufacturer</name>
@@ -110,15 +118,19 @@
           </property>
           <property>
             <name displayName="Model">model</name>
-            <value>iPhone-SE</value>
+            <value>iPhone-6</value>
           </property>
           <property>
             <name displayName="Firmware">firmware</name>
-            <value>9.3.2</value>
+            <value>9.2.1</value>
           </property>
           <property>
             <name displayName="Distributor">distributor</name>
             <value>MacCam9</value>
+          </property>
+          <property>
+            <name displayName="Description">description</name>
+            <value>Avner</value>
           </property>
           <property>
             <name displayName="OS">os</name>
@@ -126,35 +138,45 @@
           </property>
           <property>
             <name displayName="OS Version">osVersion</name>
-            <value>9.3.2</value>
+            <value>9.2.1</value>
+          </property>
+          <property>
+            <name displayName="Shunra Ip">shunraIp</name>
+            <value>1.0.29.4</value>
           </property>
           <property>
             <name displayName="Resolution Width">resolutionWidth</name>
-            <value>640</value>
+            <value>750</value>
           </property>
           <property>
             <name displayName="Resolution Height">resolutionHeight</name>
-            <value>1136</value>
+            <value>1334</value>
           </property>
         </properties>
         <recordings>
           <recording>
             <dataItems>
-              <dataItem label="recording" type="video">
-                <attachment>video\DD4A3714896782AF31F770D2871A4DDBDBD6632F_06_27_03_1090887.flv</attachment>
+              <dataItem label="recording" type="video" format="flv">
+                <file server="rtmps://demo.vod-stream-01.perfectomobile.com/vods3">flv:pm/perfecto-vod-01/demo/647672315467564c494d713734357762553872464b7a326b6638337439776b4c4c6c5a55703352456c31453d/67888d99320c17d884e8c206f0496d217db732fc4e135d2d30dd4d4a696739ab.flv</file>
+              </dataItem>
+              <dataItem label="recordingStream" type="video" format="flv">
+                <file>rtmps://demo.vod-stream-01.perfectomobile.com/vods3/_definst_/flv:pm/perfecto-vod-01/demo/647672315467564c494d713734357762553872464b7a326b6638337439776b4c4c6c5a55703352456c31453d/67888d99320c17d884e8c206f0496d217db732fc4e135d2d30dd4d4a696739ab.flv</file>
+              </dataItem>
+              <dataItem label="recordingDownload" type="video" format="flv">
+                <file>https://demo.vod-download-01.perfectomobile.com/demo/647672315467564c494d713734357762553872464b7a326b6638337439776b4c4c6c5a55703352456c31453d/67888d99320c17d884e8c206f0496d217db732fc4e135d2d30dd4d4a696739ab.flv</file>
               </dataItem>
             </dataItems>
             <times>
               <recordingTimes>
                 <start>
-                  <millis>1468477626571</millis>
-                  <formatted>2016-07-14:06-27-06 GMT</formatted>
-                  <server>2016-07-14:06-27-06 +0000</server>
+                  <millis>1469019122146</millis>
+                  <formatted>2016-07-20:12-52-02 GMT</formatted>
+                  <server>2016-07-20:12-52-02 +0000</server>
                 </start>
                 <end>
-                  <millis>1468477889004</millis>
-                  <formatted>2016-07-14:06-31-29 GMT</formatted>
-                  <server>2016-07-14:06-31-29 +0000</server>
+                  <millis>1469019438777</millis>
+                  <formatted>2016-07-20:12-57-18 GMT</formatted>
+                  <server>2016-07-20:12-57-18 +0000</server>
                 </end>
               </recordingTimes>
             </times>
@@ -175,34 +197,34 @@
     </status>
     <timers>
       <timer id="auto">
-        <time label="elapsed">271.3</time>
-        <time label="device">181.5</time>
-        <time label="system">89.8</time>
-        <time label="ux">181.5</time>
+        <time label="elapsed">329</time>
+        <time label="device">245.4</time>
+        <time label="system">83.6</time>
+        <time label="ux">245.4</time>
       </timer>
       <timer id="accounts">
-        <time label="elapsed">8.1</time>
-        <time label="device">4.4</time>
-        <time label="system">3.7</time>
-        <time label="ux">4.4</time>
+        <time label="elapsed">10.7</time>
+        <time label="device">7.3</time>
+        <time label="system">3.3</time>
+        <time label="ux">7.3</time>
       </timer>
       <timer id="cases">
-        <time label="elapsed">9</time>
-        <time label="device">5.2</time>
-        <time label="system">3.8</time>
-        <time label="ux">5.2</time>
+        <time label="elapsed">14.5</time>
+        <time label="device">8.2</time>
+        <time label="system">6.4</time>
+        <time label="ux">8.2</time>
       </timer>
       <timer id="contacts">
-        <time label="elapsed">10.9</time>
-        <time label="device">8.9</time>
-        <time label="system">2</time>
-        <time label="ux">8.9</time>
+        <time label="elapsed">8.6</time>
+        <time label="device">5.5</time>
+        <time label="system">3.1</time>
+        <time label="ux">5.5</time>
       </timer>
       <timer id="people">
-        <time label="elapsed">8.1</time>
-        <time label="device">5.1</time>
-        <time label="system">3</time>
-        <time label="ux">5.1</time>
+        <time label="elapsed">9.2</time>
+        <time label="device">3.8</time>
+        <time label="system">5.5</time>
+        <time label="ux">3.8</time>
       </timer>
     </timers>
   </output>
@@ -213,12 +235,12 @@
         <times>
           <flowTimes>
             <start>
-              <millis>1468477621367</millis>
-              <formatted>2016-07-14:06-27-01 GMT</formatted>
+              <millis>1469019118052</millis>
+              <formatted>2016-07-20:12-51-58 GMT</formatted>
             </start>
             <end>
-              <millis>1468477626596</millis>
-              <formatted>2016-07-14:06-27-06 GMT</formatted>
+              <millis>1469019122161</millis>
+              <formatted>2016-07-20:12-52-02 GMT</formatted>
             </end>
           </flowTimes>
         </times>
@@ -242,12 +264,12 @@
             <times>
               <flowTimes>
                 <start>
-                  <millis>1468477621368</millis>
-                  <formatted>2016-07-14:06-27-01 GMT</formatted>
+                  <millis>1469019118052</millis>
+                  <formatted>2016-07-20:12-51-58 GMT</formatted>
                 </start>
                 <end>
-                  <millis>1468477626595</millis>
-                  <formatted>2016-07-14:06-27-06 GMT</formatted>
+                  <millis>1469019122161</millis>
+                  <formatted>2016-07-20:12-52-02 GMT</formatted>
                 </end>
               </flowTimes>
             </times>
@@ -260,9 +282,9 @@
             </status>
             <timers>
               <timer id="auto">
-                <time label="elapsed">5.2</time>
+                <time label="elapsed">4.1</time>
                 <time label="device">0</time>
-                <time label="system">5.2</time>
+                <time label="system">4.1</time>
                 <time label="ux">0</time>
               </timer>
             </timers>
@@ -270,7 +292,7 @@
           <parameters>
             <parameter type="handset">
               <name displayName="Device ID">handsetId</name>
-              <value>DD4A3714896782AF31F770D2871A4DDBDBD6632F</value>
+              <value>3133BB296C46FA2250362A227BA462A56ED11A45</value>
             </parameter>
             <parameter type="string">
               <name displayName="Allocation policy">allocation</name>
@@ -290,12 +312,12 @@
         <times>
           <flowTimes>
             <start>
-              <millis>1468477626596</millis>
-              <formatted>2016-07-14:06-27-06 GMT</formatted>
+              <millis>1469019122161</millis>
+              <formatted>2016-07-20:12-52-02 GMT</formatted>
             </start>
             <end>
-              <millis>1468477626597</millis>
-              <formatted>2016-07-14:06-27-06 GMT</formatted>
+              <millis>1469019122161</millis>
+              <formatted>2016-07-20:12-52-02 GMT</formatted>
             </end>
           </flowTimes>
         </times>
@@ -319,12 +341,12 @@
         <times>
           <flowTimes>
             <start>
-              <millis>1468477626597</millis>
-              <formatted>2016-07-14:06-27-06 GMT</formatted>
+              <millis>1469019122161</millis>
+              <formatted>2016-07-20:12-52-02 GMT</formatted>
             </start>
             <end>
-              <millis>1468477647801</millis>
-              <formatted>2016-07-14:06-27-27 GMT</formatted>
+              <millis>1469019155209</millis>
+              <formatted>2016-07-20:12-52-35 GMT</formatted>
             </end>
           </flowTimes>
         </times>
@@ -348,12 +370,12 @@
             <times>
               <flowTimes>
                 <start>
-                  <millis>1468477626598</millis>
-                  <formatted>2016-07-14:06-27-06 GMT</formatted>
+                  <millis>1469019122161</millis>
+                  <formatted>2016-07-20:12-52-02 GMT</formatted>
                 </start>
                 <end>
-                  <millis>1468477628718</millis>
-                  <formatted>2016-07-14:06-27-08 GMT</formatted>
+                  <millis>1469019127115</millis>
+                  <formatted>2016-07-20:12-52-07 GMT</formatted>
                 </end>
               </flowTimes>
             </times>
@@ -366,17 +388,17 @@
             </status>
             <timers>
               <timer id="auto">
-                <time label="elapsed">2.1</time>
-                <time label="device">2.1</time>
+                <time label="elapsed">5</time>
+                <time label="device">5</time>
                 <time label="system">0</time>
-                <time label="ux">2.1</time>
+                <time label="ux">5</time>
               </timer>
             </timers>
           </output>
           <parameters>
             <parameter type="handset">
               <name displayName="Device ID">handsetId</name>
-              <value>DD4A3714896782AF31F770D2871A4DDBDBD6632F</value>
+              <value>3133BB296C46FA2250362A227BA462A56ED11A45</value>
             </parameter>
             <parameter type="string">
               <name displayName="Application name">name</name>
@@ -391,12 +413,12 @@
             <times>
               <flowTimes>
                 <start>
-                  <millis>1468477628719</millis>
-                  <formatted>2016-07-14:06-27-08 GMT</formatted>
+                  <millis>1469019127115</millis>
+                  <formatted>2016-07-20:12-52-07 GMT</formatted>
                 </start>
                 <end>
-                  <millis>1468477647744</millis>
-                  <formatted>2016-07-14:06-27-27 GMT</formatted>
+                  <millis>1469019155209</millis>
+                  <formatted>2016-07-20:12-52-35 GMT</formatted>
                 </end>
               </flowTimes>
             </times>
@@ -409,21 +431,21 @@
             </status>
             <timers>
               <timer id="auto">
-                <time label="elapsed">19</time>
-                <time label="device">15.2</time>
-                <time label="system">3.8</time>
-                <time label="ux">15.2</time>
+                <time label="elapsed">28.1</time>
+                <time label="device">26</time>
+                <time label="system">2.1</time>
+                <time label="ux">26</time>
               </timer>
             </timers>
           </output>
           <parameters>
             <parameter type="handset">
               <name displayName="Device ID">handsetId</name>
-              <value>DD4A3714896782AF31F770D2871A4DDBDBD6632F</value>
+              <value>3133BB296C46FA2250362A227BA462A56ED11A45</value>
             </parameter>
             <parameter type="multimedia">
               <name displayName="Repository key">file</name>
-              <value>PUBLIC:S1\Builds\100\Chatter-26037-gmc3.ipa</value>
+              <value>PRIVATE:Chatter-26037-gmc3.ipa</value>
             </parameter>
           </parameters>
         </action>
@@ -435,12 +457,12 @@
         <times>
           <flowTimes>
             <start>
-              <millis>1468477647802</millis>
-              <formatted>2016-07-14:06-27-27 GMT</formatted>
+              <millis>1469019155209</millis>
+              <formatted>2016-07-20:12-52-35 GMT</formatted>
             </start>
             <end>
-              <millis>1468477655720</millis>
-              <formatted>2016-07-14:06-27-35 GMT</formatted>
+              <millis>1469019168614</millis>
+              <formatted>2016-07-20:12-52-48 GMT</formatted>
             </end>
           </flowTimes>
         </times>
@@ -464,12 +486,12 @@
             <times>
               <flowTimes>
                 <start>
-                  <millis>1468477647803</millis>
-                  <formatted>2016-07-14:06-27-27 GMT</formatted>
+                  <millis>1469019155209</millis>
+                  <formatted>2016-07-20:12-52-35 GMT</formatted>
                 </start>
                 <end>
-                  <millis>1468477649671</millis>
-                  <formatted>2016-07-14:06-27-29 GMT</formatted>
+                  <millis>1469019157896</millis>
+                  <formatted>2016-07-20:12-52-37 GMT</formatted>
                 </end>
               </flowTimes>
             </times>
@@ -482,17 +504,17 @@
             </status>
             <timers>
               <timer id="auto">
-                <time label="elapsed">1.9</time>
-                <time label="device">1.9</time>
+                <time label="elapsed">2.7</time>
+                <time label="device">2.7</time>
                 <time label="system">0</time>
-                <time label="ux">1.9</time>
+                <time label="ux">2.7</time>
               </timer>
             </timers>
           </output>
           <parameters>
             <parameter type="handset">
               <name displayName="Device ID">handsetId</name>
-              <value>DD4A3714896782AF31F770D2871A4DDBDBD6632F</value>
+              <value>3133BB296C46FA2250362A227BA462A56ED11A45</value>
             </parameter>
             <parameter type="string">
               <name displayName="Application name">name</name>
@@ -509,19 +531,19 @@
             <name displayName="Application.Element.Click">application.element click</name>
             <errorPolicy>continue</errorPolicy>
             <dataItems>
-              <dataItem label="actual" type="image" format="jpeg" displayName="DD4A3714896782AF31F770D2871A4DDBDBD6632F_06_27_29_1090888_act.jpeg">
-                <attachment>images\DD4A3714896782AF31F770D2871A4DDBDBD6632F_06_27_29_1090888_act.jpeg</attachment>
+              <dataItem label="actual" type="image" format="jpeg" displayName="3133BB296C46FA2250362A227BA462A56ED11A45_12_52_38_47378_act.jpeg">
+                <attachment>images\3133BB296C46FA2250362A227BA462A56ED11A45_12_52_38_47378_act.jpeg</attachment>
               </dataItem>
             </dataItems>
             <times>
               <flowTimes>
                 <start>
-                  <millis>1468477649672</millis>
-                  <formatted>2016-07-14:06-27-29 GMT</formatted>
+                  <millis>1469019157896</millis>
+                  <formatted>2016-07-20:12-52-37 GMT</formatted>
                 </start>
                 <end>
-                  <millis>1468477652558</millis>
-                  <formatted>2016-07-14:06-27-32 GMT</formatted>
+                  <millis>1469019164677</millis>
+                  <formatted>2016-07-20:12-52-44 GMT</formatted>
                 </end>
               </flowTimes>
             </times>
@@ -534,17 +556,17 @@
             </status>
             <timers>
               <timer id="auto">
-                <time label="elapsed">2.9</time>
-                <time label="device">2.9</time>
+                <time label="elapsed">6.8</time>
+                <time label="device">6.8</time>
                 <time label="system">0</time>
-                <time label="ux">2.9</time>
+                <time label="ux">6.8</time>
               </timer>
             </timers>
           </output>
           <parameters>
             <parameter type="handset">
               <name displayName="Device ID">handsetId</name>
-              <value>DD4A3714896782AF31F770D2871A4DDBDBD6632F</value>
+              <value>3133BB296C46FA2250362A227BA462A56ED11A45</value>
             </parameter>
             <parameter type="string">
               <name displayName="Element identifier">value</name>
@@ -565,19 +587,19 @@
             <name displayName="Application.Element.Click">application.element click</name>
             <errorPolicy>continue</errorPolicy>
             <dataItems>
-              <dataItem label="actual" type="image" format="jpeg" displayName="DD4A3714896782AF31F770D2871A4DDBDBD6632F_06_27_32_1090889_act.jpeg">
-                <attachment>images\DD4A3714896782AF31F770D2871A4DDBDBD6632F_06_27_32_1090889_act.jpeg</attachment>
+              <dataItem label="actual" type="image" format="jpeg" displayName="3133BB296C46FA2250362A227BA462A56ED11A45_12_52_45_47380_act.jpeg">
+                <attachment>images\3133BB296C46FA2250362A227BA462A56ED11A45_12_52_45_47380_act.jpeg</attachment>
               </dataItem>
             </dataItems>
             <times>
               <flowTimes>
                 <start>
-                  <millis>1468477652559</millis>
-                  <formatted>2016-07-14:06-27-32 GMT</formatted>
+                  <millis>1469019164677</millis>
+                  <formatted>2016-07-20:12-52-44 GMT</formatted>
                 </start>
                 <end>
-                  <millis>1468477655719</millis>
-                  <formatted>2016-07-14:06-27-35 GMT</formatted>
+                  <millis>1469019168614</millis>
+                  <formatted>2016-07-20:12-52-48 GMT</formatted>
                 </end>
               </flowTimes>
             </times>
@@ -590,17 +612,17 @@
             </status>
             <timers>
               <timer id="auto">
-                <time label="elapsed">3.2</time>
-                <time label="device">3.2</time>
+                <time label="elapsed">3.9</time>
+                <time label="device">3.9</time>
                 <time label="system">0</time>
-                <time label="ux">3.2</time>
+                <time label="ux">3.9</time>
               </timer>
             </timers>
           </output>
           <parameters>
             <parameter type="handset">
               <name displayName="Device ID">handsetId</name>
-              <value>DD4A3714896782AF31F770D2871A4DDBDBD6632F</value>
+              <value>3133BB296C46FA2250362A227BA462A56ED11A45</value>
             </parameter>
             <parameter type="string">
               <name displayName="Element identifier">value</name>
@@ -624,12 +646,12 @@
         <times>
           <flowTimes>
             <start>
-              <millis>1468477655721</millis>
-              <formatted>2016-07-14:06-27-35 GMT</formatted>
+              <millis>1469019168614</millis>
+              <formatted>2016-07-20:12-52-48 GMT</formatted>
             </start>
             <end>
-              <millis>1468477668090</millis>
-              <formatted>2016-07-14:06-27-48 GMT</formatted>
+              <millis>1469019186128</millis>
+              <formatted>2016-07-20:12-53-06 GMT</formatted>
             </end>
           </flowTimes>
         </times>
@@ -651,19 +673,19 @@
             <name displayName="Application.Element.Click">application.element click</name>
             <errorPolicy>continue</errorPolicy>
             <dataItems>
-              <dataItem label="actual" type="image" format="jpeg" displayName="DD4A3714896782AF31F770D2871A4DDBDBD6632F_06_27_35_1090890_act.jpeg">
-                <attachment>images\DD4A3714896782AF31F770D2871A4DDBDBD6632F_06_27_35_1090890_act.jpeg</attachment>
+              <dataItem label="actual" type="image" format="jpeg" displayName="3133BB296C46FA2250362A227BA462A56ED11A45_12_52_48_47381_act.jpeg">
+                <attachment>images\3133BB296C46FA2250362A227BA462A56ED11A45_12_52_48_47381_act.jpeg</attachment>
               </dataItem>
             </dataItems>
             <times>
               <flowTimes>
                 <start>
-                  <millis>1468477655721</millis>
-                  <formatted>2016-07-14:06-27-35 GMT</formatted>
+                  <millis>1469019168614</millis>
+                  <formatted>2016-07-20:12-52-48 GMT</formatted>
                 </start>
                 <end>
-                  <millis>1468477657985</millis>
-                  <formatted>2016-07-14:06-27-37 GMT</formatted>
+                  <millis>1469019172301</millis>
+                  <formatted>2016-07-20:12-52-52 GMT</formatted>
                 </end>
               </flowTimes>
             </times>
@@ -676,17 +698,17 @@
             </status>
             <timers>
               <timer id="auto">
-                <time label="elapsed">2.3</time>
-                <time label="device">2.3</time>
+                <time label="elapsed">3.7</time>
+                <time label="device">3.7</time>
                 <time label="system">0</time>
-                <time label="ux">2.3</time>
+                <time label="ux">3.7</time>
               </timer>
             </timers>
           </output>
           <parameters>
             <parameter type="handset">
               <name displayName="Device ID">handsetId</name>
-              <value>DD4A3714896782AF31F770D2871A4DDBDBD6632F</value>
+              <value>3133BB296C46FA2250362A227BA462A56ED11A45</value>
             </parameter>
             <parameter type="string">
               <name displayName="Element identifier">value</name>
@@ -711,19 +733,19 @@
             <name displayName="Application.Element.Click">application.element click</name>
             <errorPolicy>continue</errorPolicy>
             <dataItems>
-              <dataItem label="actual" type="image" format="jpeg" displayName="DD4A3714896782AF31F770D2871A4DDBDBD6632F_06_27_38_1090891_act.jpeg">
-                <attachment>images\DD4A3714896782AF31F770D2871A4DDBDBD6632F_06_27_38_1090891_act.jpeg</attachment>
+              <dataItem label="actual" type="image" format="jpeg" displayName="3133BB296C46FA2250362A227BA462A56ED11A45_12_52_52_47382_act.jpeg">
+                <attachment>images\3133BB296C46FA2250362A227BA462A56ED11A45_12_52_52_47382_act.jpeg</attachment>
               </dataItem>
             </dataItems>
             <times>
               <flowTimes>
                 <start>
-                  <millis>1468477657985</millis>
-                  <formatted>2016-07-14:06-27-37 GMT</formatted>
+                  <millis>1469019172301</millis>
+                  <formatted>2016-07-20:12-52-52 GMT</formatted>
                 </start>
                 <end>
-                  <millis>1468477660419</millis>
-                  <formatted>2016-07-14:06-27-40 GMT</formatted>
+                  <millis>1469019175895</millis>
+                  <formatted>2016-07-20:12-52-55 GMT</formatted>
                 </end>
               </flowTimes>
             </times>
@@ -736,17 +758,17 @@
             </status>
             <timers>
               <timer id="auto">
-                <time label="elapsed">2.4</time>
-                <time label="device">2.4</time>
+                <time label="elapsed">3.6</time>
+                <time label="device">3.6</time>
                 <time label="system">0</time>
-                <time label="ux">2.4</time>
+                <time label="ux">3.6</time>
               </timer>
             </timers>
           </output>
           <parameters>
             <parameter type="handset">
               <name displayName="Device ID">handsetId</name>
-              <value>DD4A3714896782AF31F770D2871A4DDBDBD6632F</value>
+              <value>3133BB296C46FA2250362A227BA462A56ED11A45</value>
             </parameter>
             <parameter type="string">
               <name displayName="Element identifier">value</name>
@@ -771,19 +793,19 @@
             <name displayName="Application.Element.Set">application.element set</name>
             <errorPolicy>continue</errorPolicy>
             <dataItems>
-              <dataItem label="actual" type="image" format="jpeg" displayName="DD4A3714896782AF31F770D2871A4DDBDBD6632F_06_27_40_1090892_act.jpeg">
-                <attachment>images\DD4A3714896782AF31F770D2871A4DDBDBD6632F_06_27_40_1090892_act.jpeg</attachment>
+              <dataItem label="actual" type="image" format="jpeg" displayName="3133BB296C46FA2250362A227BA462A56ED11A45_12_52_56_47383_act.jpeg">
+                <attachment>images\3133BB296C46FA2250362A227BA462A56ED11A45_12_52_56_47383_act.jpeg</attachment>
               </dataItem>
             </dataItems>
             <times>
               <flowTimes>
                 <start>
-                  <millis>1468477660420</millis>
-                  <formatted>2016-07-14:06-27-40 GMT</formatted>
+                  <millis>1469019175895</millis>
+                  <formatted>2016-07-20:12-52-55 GMT</formatted>
                 </start>
                 <end>
-                  <millis>1468477663449</millis>
-                  <formatted>2016-07-14:06-27-43 GMT</formatted>
+                  <millis>1469019181269</millis>
+                  <formatted>2016-07-20:12-53-01 GMT</formatted>
                 </end>
               </flowTimes>
             </times>
@@ -796,17 +818,17 @@
             </status>
             <timers>
               <timer id="auto">
-                <time label="elapsed">3</time>
-                <time label="device">3</time>
+                <time label="elapsed">5.4</time>
+                <time label="device">5.4</time>
                 <time label="system">0</time>
-                <time label="ux">3</time>
+                <time label="ux">5.4</time>
               </timer>
             </timers>
           </output>
           <parameters>
             <parameter type="handset">
               <name displayName="Device ID">handsetId</name>
-              <value>DD4A3714896782AF31F770D2871A4DDBDBD6632F</value>
+              <value>3133BB296C46FA2250362A227BA462A56ED11A45</value>
             </parameter>
             <parameter type="string">
               <name displayName="Text">text</name>
@@ -837,12 +859,12 @@
             <times>
               <flowTimes>
                 <start>
-                  <millis>1468477663450</millis>
-                  <formatted>2016-07-14:06-27-43 GMT</formatted>
+                  <millis>1469019181269</millis>
+                  <formatted>2016-07-20:12-53-01 GMT</formatted>
                 </start>
                 <end>
-                  <millis>1468477665452</millis>
-                  <formatted>2016-07-14:06-27-45 GMT</formatted>
+                  <millis>1469019183269</millis>
+                  <formatted>2016-07-20:12-53-03 GMT</formatted>
                 </end>
               </flowTimes>
             </times>
@@ -874,19 +896,19 @@
             <name displayName="Application.Element.Click">application.element click</name>
             <errorPolicy>continue</errorPolicy>
             <dataItems>
-              <dataItem label="actual" type="image" format="jpeg" displayName="DD4A3714896782AF31F770D2871A4DDBDBD6632F_06_27_45_1090893_act.jpeg">
-                <attachment>images\DD4A3714896782AF31F770D2871A4DDBDBD6632F_06_27_45_1090893_act.jpeg</attachment>
+              <dataItem label="actual" type="image" format="jpeg" displayName="3133BB296C46FA2250362A227BA462A56ED11A45_12_53_03_47384_act.jpeg">
+                <attachment>images\3133BB296C46FA2250362A227BA462A56ED11A45_12_53_03_47384_act.jpeg</attachment>
               </dataItem>
             </dataItems>
             <times>
               <flowTimes>
                 <start>
-                  <millis>1468477665454</millis>
-                  <formatted>2016-07-14:06-27-45 GMT</formatted>
+                  <millis>1469019183269</millis>
+                  <formatted>2016-07-20:12-53-03 GMT</formatted>
                 </start>
                 <end>
-                  <millis>1468477668089</millis>
-                  <formatted>2016-07-14:06-27-48 GMT</formatted>
+                  <millis>1469019186128</millis>
+                  <formatted>2016-07-20:12-53-06 GMT</formatted>
                 </end>
               </flowTimes>
             </times>
@@ -899,17 +921,17 @@
             </status>
             <timers>
               <timer id="auto">
-                <time label="elapsed">2.6</time>
-                <time label="device">2.6</time>
+                <time label="elapsed">2.9</time>
+                <time label="device">2.9</time>
                 <time label="system">0</time>
-                <time label="ux">2.6</time>
+                <time label="ux">2.9</time>
               </timer>
             </timers>
           </output>
           <parameters>
             <parameter type="handset">
               <name displayName="Device ID">handsetId</name>
-              <value>DD4A3714896782AF31F770D2871A4DDBDBD6632F</value>
+              <value>3133BB296C46FA2250362A227BA462A56ED11A45</value>
             </parameter>
             <parameter type="string">
               <name displayName="Element identifier">value</name>
@@ -937,12 +959,12 @@
         <times>
           <flowTimes>
             <start>
-              <millis>1468477668091</millis>
-              <formatted>2016-07-14:06-27-48 GMT</formatted>
+              <millis>1469019186128</millis>
+              <formatted>2016-07-20:12-53-06 GMT</formatted>
             </start>
             <end>
-              <millis>1468477727001</millis>
-              <formatted>2016-07-14:06-28-47 GMT</formatted>
+              <millis>1469019239143</millis>
+              <formatted>2016-07-20:12-53-59 GMT</formatted>
             </end>
           </flowTimes>
         </times>
@@ -966,12 +988,12 @@
             <times>
               <flowTimes>
                 <start>
-                  <millis>1468477668091</millis>
-                  <formatted>2016-07-14:06-27-48 GMT</formatted>
+                  <millis>1469019186128</millis>
+                  <formatted>2016-07-20:12-53-06 GMT</formatted>
                 </start>
                 <end>
-                  <millis>1468477678094</millis>
-                  <formatted>2016-07-14:06-27-58 GMT</formatted>
+                  <millis>1469019196128</millis>
+                  <formatted>2016-07-20:12-53-16 GMT</formatted>
                 </end>
               </flowTimes>
             </times>
@@ -1003,19 +1025,19 @@
             <name displayName="Application.Element.Set">application.element set</name>
             <errorPolicy>continue</errorPolicy>
             <dataItems>
-              <dataItem label="actual" type="image" format="jpeg" displayName="DD4A3714896782AF31F770D2871A4DDBDBD6632F_06_27_58_1090894_act.jpeg">
-                <attachment>images\DD4A3714896782AF31F770D2871A4DDBDBD6632F_06_27_58_1090894_act.jpeg</attachment>
+              <dataItem label="actual" type="image" format="jpeg" displayName="3133BB296C46FA2250362A227BA462A56ED11A45_12_53_16_47385_act.jpeg">
+                <attachment>images\3133BB296C46FA2250362A227BA462A56ED11A45_12_53_16_47385_act.jpeg</attachment>
               </dataItem>
             </dataItems>
             <times>
               <flowTimes>
                 <start>
-                  <millis>1468477678094</millis>
-                  <formatted>2016-07-14:06-27-58 GMT</formatted>
+                  <millis>1469019196128</millis>
+                  <formatted>2016-07-20:12-53-16 GMT</formatted>
                 </start>
                 <end>
-                  <millis>1468477682783</millis>
-                  <formatted>2016-07-14:06-28-02 GMT</formatted>
+                  <millis>1469019201096</millis>
+                  <formatted>2016-07-20:12-53-21 GMT</formatted>
                 </end>
               </flowTimes>
             </times>
@@ -1028,17 +1050,17 @@
             </status>
             <timers>
               <timer id="auto">
-                <time label="elapsed">4.7</time>
-                <time label="device">4.7</time>
+                <time label="elapsed">5</time>
+                <time label="device">5</time>
                 <time label="system">0</time>
-                <time label="ux">4.7</time>
+                <time label="ux">5</time>
               </timer>
             </timers>
           </output>
           <parameters>
             <parameter type="handset">
               <name displayName="Device ID">handsetId</name>
-              <value>DD4A3714896782AF31F770D2871A4DDBDBD6632F</value>
+              <value>3133BB296C46FA2250362A227BA462A56ED11A45</value>
             </parameter>
             <parameter type="string">
               <name displayName="Text">text</name>
@@ -1063,19 +1085,19 @@
             <name displayName="Application.Element.Set">application.element set</name>
             <errorPolicy>continue</errorPolicy>
             <dataItems>
-              <dataItem label="actual" type="image" format="jpeg" displayName="DD4A3714896782AF31F770D2871A4DDBDBD6632F_06_28_02_1090895_act.jpeg">
-                <attachment>images\DD4A3714896782AF31F770D2871A4DDBDBD6632F_06_28_02_1090895_act.jpeg</attachment>
+              <dataItem label="actual" type="image" format="jpeg" displayName="3133BB296C46FA2250362A227BA462A56ED11A45_12_53_21_47386_act.jpeg">
+                <attachment>images\3133BB296C46FA2250362A227BA462A56ED11A45_12_53_21_47386_act.jpeg</attachment>
               </dataItem>
             </dataItems>
             <times>
               <flowTimes>
                 <start>
-                  <millis>1468477682784</millis>
-                  <formatted>2016-07-14:06-28-02 GMT</formatted>
+                  <millis>1469019201096</millis>
+                  <formatted>2016-07-20:12-53-21 GMT</formatted>
                 </start>
                 <end>
-                  <millis>1468477686217</millis>
-                  <formatted>2016-07-14:06-28-06 GMT</formatted>
+                  <millis>1469019204908</millis>
+                  <formatted>2016-07-20:12-53-24 GMT</formatted>
                 </end>
               </flowTimes>
             </times>
@@ -1088,17 +1110,17 @@
             </status>
             <timers>
               <timer id="auto">
-                <time label="elapsed">3.4</time>
-                <time label="device">3.4</time>
+                <time label="elapsed">3.8</time>
+                <time label="device">3.8</time>
                 <time label="system">0</time>
-                <time label="ux">3.4</time>
+                <time label="ux">3.8</time>
               </timer>
             </timers>
           </output>
           <parameters>
             <parameter type="handset">
               <name displayName="Device ID">handsetId</name>
-              <value>DD4A3714896782AF31F770D2871A4DDBDBD6632F</value>
+              <value>3133BB296C46FA2250362A227BA462A56ED11A45</value>
             </parameter>
             <parameter type="string">
               <name displayName="Text">text</name>
@@ -1123,19 +1145,19 @@
             <name displayName="Application.Element.Click">application.element click</name>
             <errorPolicy>continue</errorPolicy>
             <dataItems>
-              <dataItem label="actual" type="image" format="jpeg" displayName="DD4A3714896782AF31F770D2871A4DDBDBD6632F_06_28_06_1090896_act.jpeg">
-                <attachment>images\DD4A3714896782AF31F770D2871A4DDBDBD6632F_06_28_06_1090896_act.jpeg</attachment>
+              <dataItem label="actual" type="image" format="jpeg" displayName="3133BB296C46FA2250362A227BA462A56ED11A45_12_53_25_47387_act.jpeg">
+                <attachment>images\3133BB296C46FA2250362A227BA462A56ED11A45_12_53_25_47387_act.jpeg</attachment>
               </dataItem>
             </dataItems>
             <times>
               <flowTimes>
                 <start>
-                  <millis>1468477686218</millis>
-                  <formatted>2016-07-14:06-28-06 GMT</formatted>
+                  <millis>1469019204908</millis>
+                  <formatted>2016-07-20:12-53-24 GMT</formatted>
                 </start>
                 <end>
-                  <millis>1468477688462</millis>
-                  <formatted>2016-07-14:06-28-08 GMT</formatted>
+                  <millis>1469019207517</millis>
+                  <formatted>2016-07-20:12-53-27 GMT</formatted>
                 </end>
               </flowTimes>
             </times>
@@ -1148,17 +1170,17 @@
             </status>
             <timers>
               <timer id="auto">
-                <time label="elapsed">2.2</time>
-                <time label="device">2.2</time>
+                <time label="elapsed">2.6</time>
+                <time label="device">2.6</time>
                 <time label="system">0</time>
-                <time label="ux">2.2</time>
+                <time label="ux">2.6</time>
               </timer>
             </timers>
           </output>
           <parameters>
             <parameter type="handset">
               <name displayName="Device ID">handsetId</name>
-              <value>DD4A3714896782AF31F770D2871A4DDBDBD6632F</value>
+              <value>3133BB296C46FA2250362A227BA462A56ED11A45</value>
             </parameter>
             <parameter type="string">
               <name displayName="Element identifier">value</name>
@@ -1179,19 +1201,19 @@
             <name displayName="Application.Element.Click">application.element click</name>
             <errorPolicy>continue</errorPolicy>
             <dataItems>
-              <dataItem label="actual" type="image" format="jpeg" displayName="DD4A3714896782AF31F770D2871A4DDBDBD6632F_06_28_08_1090897_act.jpeg">
-                <attachment>images\DD4A3714896782AF31F770D2871A4DDBDBD6632F_06_28_08_1090897_act.jpeg</attachment>
+              <dataItem label="actual" type="image" format="jpeg" displayName="3133BB296C46FA2250362A227BA462A56ED11A45_12_53_27_47388_act.jpeg">
+                <attachment>images\3133BB296C46FA2250362A227BA462A56ED11A45_12_53_27_47388_act.jpeg</attachment>
               </dataItem>
             </dataItems>
             <times>
               <flowTimes>
                 <start>
-                  <millis>1468477688463</millis>
-                  <formatted>2016-07-14:06-28-08 GMT</formatted>
+                  <millis>1469019207517</millis>
+                  <formatted>2016-07-20:12-53-27 GMT</formatted>
                 </start>
                 <end>
-                  <millis>1468477690768</millis>
-                  <formatted>2016-07-14:06-28-10 GMT</formatted>
+                  <millis>1469019212611</millis>
+                  <formatted>2016-07-20:12-53-32 GMT</formatted>
                 </end>
               </flowTimes>
             </times>
@@ -1204,17 +1226,17 @@
             </status>
             <timers>
               <timer id="auto">
-                <time label="elapsed">2.3</time>
-                <time label="device">2.3</time>
+                <time label="elapsed">5.1</time>
+                <time label="device">5.1</time>
                 <time label="system">0</time>
-                <time label="ux">2.3</time>
+                <time label="ux">5.1</time>
               </timer>
             </timers>
           </output>
           <parameters>
             <parameter type="handset">
               <name displayName="Device ID">handsetId</name>
-              <value>DD4A3714896782AF31F770D2871A4DDBDBD6632F</value>
+              <value>3133BB296C46FA2250362A227BA462A56ED11A45</value>
             </parameter>
             <parameter type="string">
               <name displayName="Element identifier">value</name>
@@ -1237,12 +1259,12 @@
             <times>
               <flowTimes>
                 <start>
-                  <millis>1468477690769</millis>
-                  <formatted>2016-07-14:06-28-10 GMT</formatted>
+                  <millis>1469019212611</millis>
+                  <formatted>2016-07-20:12-53-32 GMT</formatted>
                 </start>
                 <end>
-                  <millis>1468477692770</millis>
-                  <formatted>2016-07-14:06-28-12 GMT</formatted>
+                  <millis>1469019214611</millis>
+                  <formatted>2016-07-20:12-53-34 GMT</formatted>
                 </end>
               </flowTimes>
             </times>
@@ -1274,19 +1296,19 @@
             <name displayName="Application.Element.Click">application.element click</name>
             <errorPolicy>continue</errorPolicy>
             <dataItems>
-              <dataItem label="actual" type="image" format="jpeg" displayName="DD4A3714896782AF31F770D2871A4DDBDBD6632F_06_28_12_1090898_act.jpeg">
-                <attachment>images\DD4A3714896782AF31F770D2871A4DDBDBD6632F_06_28_12_1090898_act.jpeg</attachment>
+              <dataItem label="actual" type="image" format="jpeg" displayName="3133BB296C46FA2250362A227BA462A56ED11A45_12_53_34_47389_act.jpeg">
+                <attachment>images\3133BB296C46FA2250362A227BA462A56ED11A45_12_53_34_47389_act.jpeg</attachment>
               </dataItem>
             </dataItems>
             <times>
               <flowTimes>
                 <start>
-                  <millis>1468477692771</millis>
-                  <formatted>2016-07-14:06-28-12 GMT</formatted>
+                  <millis>1469019214611</millis>
+                  <formatted>2016-07-20:12-53-34 GMT</formatted>
                 </start>
                 <end>
-                  <millis>1468477695443</millis>
-                  <formatted>2016-07-14:06-28-15 GMT</formatted>
+                  <millis>1469019224111</millis>
+                  <formatted>2016-07-20:12-53-44 GMT</formatted>
                 </end>
               </flowTimes>
             </times>
@@ -1299,17 +1321,17 @@
             </status>
             <timers>
               <timer id="auto">
-                <time label="elapsed">2.7</time>
-                <time label="device">2.7</time>
+                <time label="elapsed">9.5</time>
+                <time label="device">9.5</time>
                 <time label="system">0</time>
-                <time label="ux">2.7</time>
+                <time label="ux">9.5</time>
               </timer>
             </timers>
           </output>
           <parameters>
             <parameter type="handset">
               <name displayName="Device ID">handsetId</name>
-              <value>DD4A3714896782AF31F770D2871A4DDBDBD6632F</value>
+              <value>3133BB296C46FA2250362A227BA462A56ED11A45</value>
             </parameter>
             <parameter type="string">
               <name displayName="Element identifier">value</name>
@@ -1329,26 +1351,15 @@
           <info>
             <name displayName="Button.Click(image)">button-image click</name>
             <errorPolicy>catch</errorPolicy>
-            <dataItems>
-              <dataItem label="actual" type="image" format="jpeg" displayName="DD4A3714896782AF31F770D2871A4DDBDBD6632F_06_28_16_1090899_act.jpeg">
-                <attachment>images\DD4A3714896782AF31F770D2871A4DDBDBD6632F_06_28_16_1090899_act.jpeg</attachment>
-              </dataItem>
-              <dataItem label="expected" type="image">
-                <key repository="media">PRIVATE:script/Apple_iPhone-SE_160712_143802.png</key>
-              </dataItem>
-              <dataItem label="expected" type="image" format="png" displayName="DD4A3714896782AF31F770D2871A4DDBDBD6632F_06_28_16_1090900_exp.png">
-                <attachment>images\DD4A3714896782AF31F770D2871A4DDBDBD6632F_06_28_16_1090900_exp.png</attachment>
-              </dataItem>
-            </dataItems>
             <times>
               <flowTimes>
                 <start>
-                  <millis>1468477695444</millis>
-                  <formatted>2016-07-14:06-28-15 GMT</formatted>
+                  <millis>1469019224111</millis>
+                  <formatted>2016-07-20:12-53-44 GMT</formatted>
                 </start>
                 <end>
-                  <millis>1468477696998</millis>
-                  <formatted>2016-07-14:06-28-16 GMT</formatted>
+                  <millis>1469019224126</millis>
+                  <formatted>2016-07-20:12-53-44 GMT</formatted>
                 </end>
               </flowTimes>
             </times>
@@ -1356,14 +1367,14 @@
           <output>
             <status>
               <success>true</success>
-              <code>Success</code>
-              <description>Success</description>
+              <code>Failed</code>
+              <description>INPUT_ERROR: Repository item PRIVATE:script/Apple_iPhone-SE_160712_143802.png not found in media repository</description>
             </status>
             <timers>
               <timer id="auto">
-                <time label="elapsed">1.6</time>
+                <time label="elapsed">0</time>
                 <time label="device">0</time>
-                <time label="system">1.6</time>
+                <time label="system">0</time>
                 <time label="ux">0</time>
               </timer>
             </timers>
@@ -1371,7 +1382,7 @@
           <parameters>
             <parameter type="handset">
               <name displayName="Device ID">handsetId</name>
-              <value>DD4A3714896782AF31F770D2871A4DDBDBD6632F</value>
+              <value>3133BB296C46FA2250362A227BA462A56ED11A45</value>
             </parameter>
             <parameter type="multimedia">
               <name displayName="Label">label</name>
@@ -1410,12 +1421,12 @@
             <times>
               <flowTimes>
                 <start>
-                  <millis>1468477696999</millis>
-                  <formatted>2016-07-14:06-28-16 GMT</formatted>
+                  <millis>1469019224126</millis>
+                  <formatted>2016-07-20:12-53-44 GMT</formatted>
                 </start>
                 <end>
-                  <millis>1468477727000</millis>
-                  <formatted>2016-07-14:06-28-47 GMT</formatted>
+                  <millis>1469019239143</millis>
+                  <formatted>2016-07-20:12-53-59 GMT</formatted>
                 </end>
               </flowTimes>
             </times>
@@ -1428,9 +1439,9 @@
             </status>
             <timers>
               <timer id="auto">
-                <time label="elapsed">30</time>
+                <time label="elapsed">15</time>
                 <time label="device">0</time>
-                <time label="system">30</time>
+                <time label="system">15</time>
                 <time label="ux">0</time>
               </timer>
             </timers>
@@ -1438,7 +1449,7 @@
           <parameters>
             <parameter type="integer">
               <name displayName="Wait duration">duration</name>
-              <value>30</value>
+              <value>15</value>
             </parameter>
           </parameters>
         </action>
@@ -1450,12 +1461,12 @@
         <times>
           <flowTimes>
             <start>
-              <millis>1468477727003</millis>
-              <formatted>2016-07-14:06-28-47 GMT</formatted>
+              <millis>1469019239143</millis>
+              <formatted>2016-07-20:12-53-59 GMT</formatted>
             </start>
             <end>
-              <millis>1468477765098</millis>
-              <formatted>2016-07-14:06-29-25 GMT</formatted>
+              <millis>1469019286598</millis>
+              <formatted>2016-07-20:12-54-46 GMT</formatted>
             </end>
           </flowTimes>
         </times>
@@ -1479,12 +1490,12 @@
             <times>
               <flowTimes>
                 <start>
-                  <millis>1468477727004</millis>
-                  <formatted>2016-07-14:06-28-47 GMT</formatted>
+                  <millis>1469019239143</millis>
+                  <formatted>2016-07-20:12-53-59 GMT</formatted>
                 </start>
                 <end>
-                  <millis>1468477730005</millis>
-                  <formatted>2016-07-14:06-28-50 GMT</formatted>
+                  <millis>1469019242143</millis>
+                  <formatted>2016-07-20:12-54-02 GMT</formatted>
                 </end>
               </flowTimes>
             </times>
@@ -1516,19 +1527,19 @@
             <name displayName="Application.Element.Click">application.element click</name>
             <errorPolicy>continue</errorPolicy>
             <dataItems>
-              <dataItem label="actual" type="image" format="jpeg" displayName="DD4A3714896782AF31F770D2871A4DDBDBD6632F_06_28_50_1090902_act.jpeg">
-                <attachment>images\DD4A3714896782AF31F770D2871A4DDBDBD6632F_06_28_50_1090902_act.jpeg</attachment>
+              <dataItem label="actual" type="image" format="jpeg" displayName="3133BB296C46FA2250362A227BA462A56ED11A45_12_54_02_47391_act.jpeg">
+                <attachment>images\3133BB296C46FA2250362A227BA462A56ED11A45_12_54_02_47391_act.jpeg</attachment>
               </dataItem>
             </dataItems>
             <times>
               <flowTimes>
                 <start>
-                  <millis>1468477730006</millis>
-                  <formatted>2016-07-14:06-28-50 GMT</formatted>
+                  <millis>1469019242143</millis>
+                  <formatted>2016-07-20:12-54-02 GMT</formatted>
                 </start>
                 <end>
-                  <millis>1468477733109</millis>
-                  <formatted>2016-07-14:06-28-53 GMT</formatted>
+                  <millis>1469019246362</millis>
+                  <formatted>2016-07-20:12-54-06 GMT</formatted>
                 </end>
               </flowTimes>
             </times>
@@ -1541,17 +1552,17 @@
             </status>
             <timers>
               <timer id="auto">
-                <time label="elapsed">3.1</time>
-                <time label="device">3.1</time>
+                <time label="elapsed">4.2</time>
+                <time label="device">4.2</time>
                 <time label="system">0</time>
-                <time label="ux">3.1</time>
+                <time label="ux">4.2</time>
               </timer>
             </timers>
           </output>
           <parameters>
             <parameter type="handset">
               <name displayName="Device ID">handsetId</name>
-              <value>DD4A3714896782AF31F770D2871A4DDBDBD6632F</value>
+              <value>3133BB296C46FA2250362A227BA462A56ED11A45</value>
             </parameter>
             <parameter type="string">
               <name displayName="Element identifier">value</name>
@@ -1576,19 +1587,19 @@
             <name displayName="Application.Element.Click">application.element click</name>
             <errorPolicy>continue</errorPolicy>
             <dataItems>
-              <dataItem label="actual" type="image" format="jpeg" displayName="DD4A3714896782AF31F770D2871A4DDBDBD6632F_06_28_53_1090909_act.jpeg">
-                <attachment>images\DD4A3714896782AF31F770D2871A4DDBDBD6632F_06_28_53_1090909_act.jpeg</attachment>
+              <dataItem label="actual" type="image" format="jpeg" displayName="3133BB296C46FA2250362A227BA462A56ED11A45_12_54_06_47392_act.jpeg">
+                <attachment>images\3133BB296C46FA2250362A227BA462A56ED11A45_12_54_06_47392_act.jpeg</attachment>
               </dataItem>
             </dataItems>
             <times>
               <flowTimes>
                 <start>
-                  <millis>1468477733110</millis>
-                  <formatted>2016-07-14:06-28-53 GMT</formatted>
+                  <millis>1469019246362</millis>
+                  <formatted>2016-07-20:12-54-06 GMT</formatted>
                 </start>
                 <end>
-                  <millis>1468477738283</millis>
-                  <formatted>2016-07-14:06-28-58 GMT</formatted>
+                  <millis>1469019250847</millis>
+                  <formatted>2016-07-20:12-54-10 GMT</formatted>
                 </end>
               </flowTimes>
             </times>
@@ -1601,17 +1612,17 @@
             </status>
             <timers>
               <timer id="auto">
-                <time label="elapsed">5.2</time>
-                <time label="device">5.2</time>
+                <time label="elapsed">4.5</time>
+                <time label="device">4.5</time>
                 <time label="system">0</time>
-                <time label="ux">5.2</time>
+                <time label="ux">4.5</time>
               </timer>
             </timers>
           </output>
           <parameters>
             <parameter type="handset">
               <name displayName="Device ID">handsetId</name>
-              <value>DD4A3714896782AF31F770D2871A4DDBDBD6632F</value>
+              <value>3133BB296C46FA2250362A227BA462A56ED11A45</value>
             </parameter>
             <parameter type="string">
               <name displayName="Element identifier">value</name>
@@ -1636,19 +1647,122 @@
             <name displayName="Application.Element.Set">application.element set</name>
             <errorPolicy>continue</errorPolicy>
             <dataItems>
-              <dataItem label="actual" type="image" format="jpeg" displayName="DD4A3714896782AF31F770D2871A4DDBDBD6632F_06_28_58_1090917_act.jpeg">
-                <attachment>images\DD4A3714896782AF31F770D2871A4DDBDBD6632F_06_28_58_1090917_act.jpeg</attachment>
+              <dataItem label="actual" type="image" format="jpeg" displayName="3133BB296C46FA2250362A227BA462A56ED11A45_12_54_10_47393_act.jpeg">
+                <attachment>images\3133BB296C46FA2250362A227BA462A56ED11A45_12_54_10_47393_act.jpeg</attachment>
               </dataItem>
             </dataItems>
             <times>
               <flowTimes>
                 <start>
-                  <millis>1468477738284</millis>
-                  <formatted>2016-07-14:06-28-58 GMT</formatted>
+                  <millis>1469019250847</millis>
+                  <formatted>2016-07-20:12-54-10 GMT</formatted>
                 </start>
                 <end>
-                  <millis>1468477741256</millis>
-                  <formatted>2016-07-14:06-29-01 GMT</formatted>
+                  <millis>1469019254862</millis>
+                  <formatted>2016-07-20:12-54-14 GMT</formatted>
+                </end>
+              </flowTimes>
+            </times>
+          </info>
+          <output>
+            <status>
+              <success>true</success>
+              <code>Success</code>
+              <description>Success</description>
+            </status>
+            <timers>
+              <timer id="auto">
+                <time label="elapsed">4</time>
+                <time label="device">4</time>
+                <time label="system">0</time>
+                <time label="ux">4</time>
+              </timer>
+            </timers>
+          </output>
+          <parameters>
+            <parameter type="handset">
+              <name displayName="Device ID">handsetId</name>
+              <value>3133BB296C46FA2250362A227BA462A56ED11A45</value>
+            </parameter>
+            <parameter type="string">
+              <name displayName="Text">text</name>
+              <value>Accounts</value>
+            </parameter>
+            <parameter type="string">
+              <name displayName="Element identifier">value</name>
+              <value>//*[@value="Search"]|//*[@label="Search Salesforce"]</value>
+            </parameter>
+            <parameter type="string">
+              <name displayName="By">by</name>
+              <value displayName="XPath">xpath</value>
+            </parameter>
+            <parameter type="integer">
+              <name displayName="Timeout">timeout</name>
+              <value>2</value>
+            </parameter>
+            <parameter type="string">
+              <name displayName="Automation framework">framework</name>
+              <value displayName="PerfectoMobile">perfectoMobile</value>
+            </parameter>
+          </parameters>
+        </action>
+        <action>
+          <info>
+            <name displayName="Wait">wait</name>
+            <errorPolicy>abort</errorPolicy>
+            <times>
+              <flowTimes>
+                <start>
+                  <millis>1469019254862</millis>
+                  <formatted>2016-07-20:12-54-14 GMT</formatted>
+                </start>
+                <end>
+                  <millis>1469019257878</millis>
+                  <formatted>2016-07-20:12-54-17 GMT</formatted>
+                </end>
+              </flowTimes>
+            </times>
+          </info>
+          <output>
+            <status>
+              <success>true</success>
+              <code>Success</code>
+              <description>Success</description>
+            </status>
+            <timers>
+              <timer id="auto">
+                <time label="elapsed">3</time>
+                <time label="device">0</time>
+                <time label="system">3</time>
+                <time label="ux">0</time>
+              </timer>
+            </timers>
+          </output>
+          <parameters>
+            <parameter type="integer">
+              <name displayName="Wait duration">duration</name>
+              <value>3</value>
+            </parameter>
+          </parameters>
+        </action>
+        <action>
+          <info>
+            <name displayName="Application.Element.Click">application.element click</name>
+            <errorPolicy>continue</errorPolicy>
+            <dataItems>
+              <dataItem label="actual" type="image" format="jpeg" displayName="3133BB296C46FA2250362A227BA462A56ED11A45_12_54_18_47394_act.jpeg">
+                <attachment>images\3133BB296C46FA2250362A227BA462A56ED11A45_12_54_18_47394_act.jpeg</attachment>
+              </dataItem>
+            </dataItems>
+            <times>
+              <flowTimes>
+                <start>
+                  <millis>1469019257878</millis>
+                  <formatted>2016-07-20:12-54-17 GMT</formatted>
+                </start>
+                <end>
+                  <millis>1469019260878</millis>
+                  <formatted>2016-07-20:12-54-20 GMT</formatted>
                 </end>
               </flowTimes>
             </times>
@@ -1671,67 +1785,7 @@
           <parameters>
             <parameter type="handset">
               <name displayName="Device ID">handsetId</name>
-              <value>DD4A3714896782AF31F770D2871A4DDBDBD6632F</value>
-            </parameter>
-            <parameter type="string">
-              <name displayName="Text">text</name>
-              <value>Accounts</value>
-            </parameter>
-            <parameter type="string">
-              <name displayName="Element identifier">value</name>
-              <value>//*[@value="Search"]|//*[@label="Search Salesforce"]</value>
-            </parameter>
-            <parameter type="string">
-              <name displayName="By">by</name>
-              <value displayName="XPath">xpath</value>
-            </parameter>
-            <parameter type="string">
-              <name displayName="Automation framework">framework</name>
-              <value displayName="PerfectoMobile">perfectoMobile</value>
-            </parameter>
-          </parameters>
-        </action>
-        <action>
-          <info>
-            <name displayName="Application.Element.Click">application.element click</name>
-            <errorPolicy>continue</errorPolicy>
-            <dataItems>
-              <dataItem label="actual" type="image" format="jpeg" displayName="DD4A3714896782AF31F770D2871A4DDBDBD6632F_06_29_01_1090923_act.jpeg">
-                <attachment>images\DD4A3714896782AF31F770D2871A4DDBDBD6632F_06_29_01_1090923_act.jpeg</attachment>
-              </dataItem>
-            </dataItems>
-            <times>
-              <flowTimes>
-                <start>
-                  <millis>1468477741257</millis>
-                  <formatted>2016-07-14:06-29-01 GMT</formatted>
-                </start>
-                <end>
-                  <millis>1468477743588</millis>
-                  <formatted>2016-07-14:06-29-03 GMT</formatted>
-                </end>
-              </flowTimes>
-            </times>
-          </info>
-          <output>
-            <status>
-              <success>true</success>
-              <code>Success</code>
-              <description>Success</description>
-            </status>
-            <timers>
-              <timer id="auto">
-                <time label="elapsed">2.3</time>
-                <time label="device">2.3</time>
-                <time label="system">0</time>
-                <time label="ux">2.3</time>
-              </timer>
-            </timers>
-          </output>
-          <parameters>
-            <parameter type="handset">
-              <name displayName="Device ID">handsetId</name>
-              <value>DD4A3714896782AF31F770D2871A4DDBDBD6632F</value>
+              <value>3133BB296C46FA2250362A227BA462A56ED11A45</value>
             </parameter>
             <parameter type="string">
               <name displayName="Element identifier">value</name>
@@ -1740,6 +1794,10 @@
             <parameter type="string">
               <name displayName="By">by</name>
               <value displayName="XPath">xpath</value>
+            </parameter>
+            <parameter type="integer">
+              <name displayName="Timeout">timeout</name>
+              <value>4</value>
             </parameter>
             <parameter type="string">
               <name displayName="Automation framework">framework</name>
@@ -1752,19 +1810,19 @@
             <name displayName="Application.Element.Set">application.element set</name>
             <errorPolicy>continue</errorPolicy>
             <dataItems>
-              <dataItem label="actual" type="image" format="jpeg" displayName="DD4A3714896782AF31F770D2871A4DDBDBD6632F_06_29_03_1090928_act.jpeg">
-                <attachment>images\DD4A3714896782AF31F770D2871A4DDBDBD6632F_06_29_03_1090928_act.jpeg</attachment>
+              <dataItem label="actual" type="image" format="jpeg" displayName="3133BB296C46FA2250362A227BA462A56ED11A45_12_54_21_47395_act.jpeg">
+                <attachment>images\3133BB296C46FA2250362A227BA462A56ED11A45_12_54_21_47395_act.jpeg</attachment>
               </dataItem>
             </dataItems>
             <times>
               <flowTimes>
                 <start>
-                  <millis>1468477743589</millis>
-                  <formatted>2016-07-14:06-29-03 GMT</formatted>
+                  <millis>1469019260878</millis>
+                  <formatted>2016-07-20:12-54-20 GMT</formatted>
                 </start>
                 <end>
-                  <millis>1468477747880</millis>
-                  <formatted>2016-07-14:06-29-07 GMT</formatted>
+                  <millis>1469019266254</millis>
+                  <formatted>2016-07-20:12-54-26 GMT</formatted>
                 </end>
               </flowTimes>
             </times>
@@ -1777,17 +1835,17 @@
             </status>
             <timers>
               <timer id="auto">
-                <time label="elapsed">4.3</time>
-                <time label="device">4.3</time>
+                <time label="elapsed">5.4</time>
+                <time label="device">5.4</time>
                 <time label="system">0</time>
-                <time label="ux">4.3</time>
+                <time label="ux">5.4</time>
               </timer>
             </timers>
           </output>
           <parameters>
             <parameter type="handset">
               <name displayName="Device ID">handsetId</name>
-              <value>DD4A3714896782AF31F770D2871A4DDBDBD6632F</value>
+              <value>3133BB296C46FA2250362A227BA462A56ED11A45</value>
             </parameter>
             <parameter type="string">
               <name displayName="Text">text</name>
@@ -1814,12 +1872,12 @@
             <times>
               <flowTimes>
                 <start>
-                  <millis>1468477747881</millis>
-                  <formatted>2016-07-14:06-29-07 GMT</formatted>
+                  <millis>1469019266254</millis>
+                  <formatted>2016-07-20:12-54-26 GMT</formatted>
                 </start>
                 <end>
-                  <millis>1468477750882</millis>
-                  <formatted>2016-07-14:06-29-10 GMT</formatted>
+                  <millis>1469019269254</millis>
+                  <formatted>2016-07-20:12-54-29 GMT</formatted>
                 </end>
               </flowTimes>
             </times>
@@ -1853,12 +1911,12 @@
             <times>
               <flowTimes>
                 <start>
-                  <millis>1468477750884</millis>
-                  <formatted>2016-07-14:06-29-10 GMT</formatted>
+                  <millis>1469019269254</millis>
+                  <formatted>2016-07-20:12-54-29 GMT</formatted>
                 </start>
                 <end>
-                  <millis>1468477750885</millis>
-                  <formatted>2016-07-14:06-29-10 GMT</formatted>
+                  <millis>1469019269254</millis>
+                  <formatted>2016-07-20:12-54-29 GMT</formatted>
                 </end>
               </flowTimes>
             </times>
@@ -1882,19 +1940,19 @@
             <name displayName="Application.Element.Click">application.element click</name>
             <errorPolicy>continue</errorPolicy>
             <dataItems>
-              <dataItem label="actual" type="image" format="jpeg" displayName="DD4A3714896782AF31F770D2871A4DDBDBD6632F_06_29_11_1090938_act.jpeg">
-                <attachment>images\DD4A3714896782AF31F770D2871A4DDBDBD6632F_06_29_11_1090938_act.jpeg</attachment>
+              <dataItem label="actual" type="image" format="jpeg" displayName="3133BB296C46FA2250362A227BA462A56ED11A45_12_54_29_47403_act.jpeg">
+                <attachment>images\3133BB296C46FA2250362A227BA462A56ED11A45_12_54_29_47403_act.jpeg</attachment>
               </dataItem>
             </dataItems>
             <times>
               <flowTimes>
                 <start>
-                  <millis>1468477750886</millis>
-                  <formatted>2016-07-14:06-29-10 GMT</formatted>
+                  <millis>1469019269254</millis>
+                  <formatted>2016-07-20:12-54-29 GMT</formatted>
                 </start>
                 <end>
-                  <millis>1468477753866</millis>
-                  <formatted>2016-07-14:06-29-13 GMT</formatted>
+                  <millis>1469019272223</millis>
+                  <formatted>2016-07-20:12-54-32 GMT</formatted>
                 </end>
               </flowTimes>
             </times>
@@ -1917,7 +1975,7 @@
           <parameters>
             <parameter type="handset">
               <name displayName="Device ID">handsetId</name>
-              <value>DD4A3714896782AF31F770D2871A4DDBDBD6632F</value>
+              <value>3133BB296C46FA2250362A227BA462A56ED11A45</value>
             </parameter>
             <parameter type="string">
               <name displayName="Element identifier">value</name>
@@ -1938,8 +1996,8 @@
             <name displayName="Text checkpoint">checkpoint text</name>
             <errorPolicy>ignore</errorPolicy>
             <dataItems>
-              <dataItem label="actual" type="image" format="jpeg" displayName="DD4A3714896782AF31F770D2871A4DDBDBD6632F_06_29_18_1090951_act.jpeg">
-                <attachment>images\DD4A3714896782AF31F770D2871A4DDBDBD6632F_06_29_18_1090951_act.jpeg</attachment>
+              <dataItem label="actual" type="image" format="jpeg" displayName="3133BB296C46FA2250362A227BA462A56ED11A45_12_54_39_47414_act.jpeg">
+                <attachment>images\3133BB296C46FA2250362A227BA462A56ED11A45_12_54_39_47414_act.jpeg</attachment>
               </dataItem>
               <dataItem label="expected" type="string">
                 <value>"SFX USERRL"</value>
@@ -1948,12 +2006,12 @@
             <times>
               <flowTimes>
                 <start>
-                  <millis>1468477753867</millis>
-                  <formatted>2016-07-14:06-29-13 GMT</formatted>
+                  <millis>1469019272223</millis>
+                  <formatted>2016-07-20:12-54-32 GMT</formatted>
                 </start>
                 <end>
-                  <millis>1468477758938</millis>
-                  <formatted>2016-07-14:06-29-18 GMT</formatted>
+                  <millis>1469019279926</millis>
+                  <formatted>2016-07-20:12-54-39 GMT</formatted>
                 </end>
               </flowTimes>
             </times>
@@ -1966,17 +2024,17 @@
             </status>
             <timers>
               <timer id="auto">
-                <time label="elapsed">5.1</time>
-                <time label="device">1.4</time>
-                <time label="system">3.6</time>
-                <time label="ux">1.4</time>
+                <time label="elapsed">7.7</time>
+                <time label="device">4.4</time>
+                <time label="system">3.3</time>
+                <time label="ux">4.4</time>
               </timer>
             </timers>
           </output>
           <parameters>
             <parameter type="handset">
               <name displayName="Device ID">handsetId</name>
-              <value>DD4A3714896782AF31F770D2871A4DDBDBD6632F</value>
+              <value>3133BB296C46FA2250362A227BA462A56ED11A45</value>
             </parameter>
             <parameter type="string">
               <name displayName="Expected text (needle)">content</name>
@@ -2003,12 +2061,12 @@
             <times>
               <flowTimes>
                 <start>
-                  <millis>1468477758939</millis>
-                  <formatted>2016-07-14:06-29-18 GMT</formatted>
+                  <millis>1469019279926</millis>
+                  <formatted>2016-07-20:12-54-39 GMT</formatted>
                 </start>
                 <end>
-                  <millis>1468477758940</millis>
-                  <formatted>2016-07-14:06-29-18 GMT</formatted>
+                  <millis>1469019279926</millis>
+                  <formatted>2016-07-20:12-54-39 GMT</formatted>
                 </end>
               </flowTimes>
             </times>
@@ -2033,18 +2091,18 @@
             <errorPolicy>abort</errorPolicy>
             <dataItems>
               <dataItem label="actual" type="integer">
-                <value>4403</value>
+                <value>7324</value>
               </dataItem>
             </dataItems>
             <times>
               <flowTimes>
                 <start>
-                  <millis>1468477758941</millis>
-                  <formatted>2016-07-14:06-29-18 GMT</formatted>
+                  <millis>1469019279926</millis>
+                  <formatted>2016-07-20:12-54-39 GMT</formatted>
                 </start>
                 <end>
-                  <millis>1468477758943</millis>
-                  <formatted>2016-07-14:06-29-18 GMT</formatted>
+                  <millis>1469019279926</millis>
+                  <formatted>2016-07-20:12-54-39 GMT</formatted>
                 </end>
               </flowTimes>
             </times>
@@ -2080,19 +2138,19 @@
             <name displayName="Screenshot">screen image</name>
             <errorPolicy>continue</errorPolicy>
             <dataItems>
-              <dataItem label="actual" type="image" format="jpeg" displayName="DD4A3714896782AF31F770D2871A4DDBDBD6632F_06_29_19_1090953_act.jpeg">
-                <attachment>images\DD4A3714896782AF31F770D2871A4DDBDBD6632F_06_29_19_1090953_act.jpeg</attachment>
+              <dataItem label="actual" type="image" format="jpeg" displayName="3133BB296C46FA2250362A227BA462A56ED11A45_12_54_40_47415_act.jpeg">
+                <attachment>images\3133BB296C46FA2250362A227BA462A56ED11A45_12_54_40_47415_act.jpeg</attachment>
               </dataItem>
             </dataItems>
             <times>
               <flowTimes>
                 <start>
-                  <millis>1468477758943</millis>
-                  <formatted>2016-07-14:06-29-18 GMT</formatted>
+                  <millis>1469019279926</millis>
+                  <formatted>2016-07-20:12-54-39 GMT</formatted>
                 </start>
                 <end>
-                  <millis>1468477759154</millis>
-                  <formatted>2016-07-14:06-29-19 GMT</formatted>
+                  <millis>1469019280192</millis>
+                  <formatted>2016-07-20:12-54-40 GMT</formatted>
                 </end>
               </flowTimes>
             </times>
@@ -2105,9 +2163,9 @@
             </status>
             <timers>
               <timer id="auto">
-                <time label="elapsed">0.2</time>
+                <time label="elapsed">0.3</time>
                 <time label="device">0</time>
-                <time label="system">0.2</time>
+                <time label="system">0.3</time>
                 <time label="ux">0</time>
               </timer>
             </timers>
@@ -2115,11 +2173,11 @@
           <parameters>
             <parameter type="handset">
               <name displayName="Device ID">handsetId</name>
-              <value>DD4A3714896782AF31F770D2871A4DDBDBD6632F</value>
+              <value>3133BB296C46FA2250362A227BA462A56ED11A45</value>
             </parameter>
             <parameter type="string">
               <name displayName="Grid label">label</name>
-              <value>4403</value>
+              <value>7324</value>
             </parameter>
           </parameters>
         </action>
@@ -2128,19 +2186,19 @@
             <name displayName="Application.Element.Click">application.element click</name>
             <errorPolicy>continue</errorPolicy>
             <dataItems>
-              <dataItem label="actual" type="image" format="jpeg" displayName="DD4A3714896782AF31F770D2871A4DDBDBD6632F_06_29_19_1090954_act.jpeg">
-                <attachment>images\DD4A3714896782AF31F770D2871A4DDBDBD6632F_06_29_19_1090954_act.jpeg</attachment>
+              <dataItem label="actual" type="image" format="jpeg" displayName="3133BB296C46FA2250362A227BA462A56ED11A45_12_54_40_47417_act.jpeg">
+                <attachment>images\3133BB296C46FA2250362A227BA462A56ED11A45_12_54_40_47417_act.jpeg</attachment>
               </dataItem>
             </dataItems>
             <times>
               <flowTimes>
                 <start>
-                  <millis>1468477759155</millis>
-                  <formatted>2016-07-14:06-29-19 GMT</formatted>
+                  <millis>1469019280192</millis>
+                  <formatted>2016-07-20:12-54-40 GMT</formatted>
                 </start>
                 <end>
-                  <millis>1468477762483</millis>
-                  <formatted>2016-07-14:06-29-22 GMT</formatted>
+                  <millis>1469019283739</millis>
+                  <formatted>2016-07-20:12-54-43 GMT</formatted>
                 </end>
               </flowTimes>
             </times>
@@ -2153,17 +2211,17 @@
             </status>
             <timers>
               <timer id="auto">
-                <time label="elapsed">3.3</time>
-                <time label="device">3.3</time>
+                <time label="elapsed">3.5</time>
+                <time label="device">3.5</time>
                 <time label="system">0</time>
-                <time label="ux">3.3</time>
+                <time label="ux">3.5</time>
               </timer>
             </timers>
           </output>
           <parameters>
             <parameter type="handset">
               <name displayName="Device ID">handsetId</name>
-              <value>DD4A3714896782AF31F770D2871A4DDBDBD6632F</value>
+              <value>3133BB296C46FA2250362A227BA462A56ED11A45</value>
             </parameter>
             <parameter type="string">
               <name displayName="Element identifier">value</name>
@@ -2184,19 +2242,19 @@
             <name displayName="Application.Element.Click">application.element click</name>
             <errorPolicy>continue</errorPolicy>
             <dataItems>
-              <dataItem label="actual" type="image" format="jpeg" displayName="DD4A3714896782AF31F770D2871A4DDBDBD6632F_06_29_22_1090961_act.jpeg">
-                <attachment>images\DD4A3714896782AF31F770D2871A4DDBDBD6632F_06_29_22_1090961_act.jpeg</attachment>
+              <dataItem label="actual" type="image" format="jpeg" displayName="3133BB296C46FA2250362A227BA462A56ED11A45_12_54_44_47424_act.jpeg">
+                <attachment>images\3133BB296C46FA2250362A227BA462A56ED11A45_12_54_44_47424_act.jpeg</attachment>
               </dataItem>
             </dataItems>
             <times>
               <flowTimes>
                 <start>
-                  <millis>1468477762484</millis>
-                  <formatted>2016-07-14:06-29-22 GMT</formatted>
+                  <millis>1469019283739</millis>
+                  <formatted>2016-07-20:12-54-43 GMT</formatted>
                 </start>
                 <end>
-                  <millis>1468477765097</millis>
-                  <formatted>2016-07-14:06-29-25 GMT</formatted>
+                  <millis>1469019286598</millis>
+                  <formatted>2016-07-20:12-54-46 GMT</formatted>
                 </end>
               </flowTimes>
             </times>
@@ -2209,17 +2267,17 @@
             </status>
             <timers>
               <timer id="auto">
-                <time label="elapsed">2.6</time>
-                <time label="device">2.6</time>
+                <time label="elapsed">2.9</time>
+                <time label="device">2.9</time>
                 <time label="system">0</time>
-                <time label="ux">2.6</time>
+                <time label="ux">2.9</time>
               </timer>
             </timers>
           </output>
           <parameters>
             <parameter type="handset">
               <name displayName="Device ID">handsetId</name>
-              <value>DD4A3714896782AF31F770D2871A4DDBDBD6632F</value>
+              <value>3133BB296C46FA2250362A227BA462A56ED11A45</value>
             </parameter>
             <parameter type="string">
               <name displayName="Element identifier">value</name>
@@ -2247,12 +2305,12 @@
         <times>
           <flowTimes>
             <start>
-              <millis>1468477765098</millis>
-              <formatted>2016-07-14:06-29-25 GMT</formatted>
+              <millis>1469019286598</millis>
+              <formatted>2016-07-20:12-54-46 GMT</formatted>
             </start>
             <end>
-              <millis>1468477800721</millis>
-              <formatted>2016-07-14:06-30-00 GMT</formatted>
+              <millis>1469019331397</millis>
+              <formatted>2016-07-20:12-55-31 GMT</formatted>
             </end>
           </flowTimes>
         </times>
@@ -2274,19 +2332,19 @@
             <name displayName="Application.Element.Click">application.element click</name>
             <errorPolicy>continue</errorPolicy>
             <dataItems>
-              <dataItem label="actual" type="image" format="jpeg" displayName="DD4A3714896782AF31F770D2871A4DDBDBD6632F_06_29_25_1090966_act.jpeg">
-                <attachment>images\DD4A3714896782AF31F770D2871A4DDBDBD6632F_06_29_25_1090966_act.jpeg</attachment>
+              <dataItem label="actual" type="image" format="jpeg" displayName="3133BB296C46FA2250362A227BA462A56ED11A45_12_54_46_47436_act.jpeg">
+                <attachment>images\3133BB296C46FA2250362A227BA462A56ED11A45_12_54_46_47436_act.jpeg</attachment>
               </dataItem>
             </dataItems>
             <times>
               <flowTimes>
                 <start>
-                  <millis>1468477765099</millis>
-                  <formatted>2016-07-14:06-29-25 GMT</formatted>
+                  <millis>1469019286598</millis>
+                  <formatted>2016-07-20:12-54-46 GMT</formatted>
                 </start>
                 <end>
-                  <millis>1468477767621</millis>
-                  <formatted>2016-07-14:06-29-27 GMT</formatted>
+                  <millis>1469019289614</millis>
+                  <formatted>2016-07-20:12-54-49 GMT</formatted>
                 </end>
               </flowTimes>
             </times>
@@ -2299,17 +2357,17 @@
             </status>
             <timers>
               <timer id="auto">
-                <time label="elapsed">2.5</time>
-                <time label="device">2.5</time>
+                <time label="elapsed">3</time>
+                <time label="device">3</time>
                 <time label="system">0</time>
-                <time label="ux">2.5</time>
+                <time label="ux">3</time>
               </timer>
             </timers>
           </output>
           <parameters>
             <parameter type="handset">
               <name displayName="Device ID">handsetId</name>
-              <value>DD4A3714896782AF31F770D2871A4DDBDBD6632F</value>
+              <value>3133BB296C46FA2250362A227BA462A56ED11A45</value>
             </parameter>
             <parameter type="string">
               <name displayName="Element identifier">value</name>
@@ -2330,19 +2388,19 @@
             <name displayName="Application.Element.Click">application.element click</name>
             <errorPolicy>continue</errorPolicy>
             <dataItems>
-              <dataItem label="actual" type="image" format="jpeg" displayName="DD4A3714896782AF31F770D2871A4DDBDBD6632F_06_29_27_1090969_act.jpeg">
-                <attachment>images\DD4A3714896782AF31F770D2871A4DDBDBD6632F_06_29_27_1090969_act.jpeg</attachment>
+              <dataItem label="actual" type="image" format="jpeg" displayName="3133BB296C46FA2250362A227BA462A56ED11A45_12_54_50_47437_act.jpeg">
+                <attachment>images\3133BB296C46FA2250362A227BA462A56ED11A45_12_54_50_47437_act.jpeg</attachment>
               </dataItem>
             </dataItems>
             <times>
               <flowTimes>
                 <start>
-                  <millis>1468477767622</millis>
-                  <formatted>2016-07-14:06-29-27 GMT</formatted>
+                  <millis>1469019289614</millis>
+                  <formatted>2016-07-20:12-54-49 GMT</formatted>
                 </start>
                 <end>
-                  <millis>1468477770398</millis>
-                  <formatted>2016-07-14:06-29-30 GMT</formatted>
+                  <millis>1469019293442</millis>
+                  <formatted>2016-07-20:12-54-53 GMT</formatted>
                 </end>
               </flowTimes>
             </times>
@@ -2355,17 +2413,17 @@
             </status>
             <timers>
               <timer id="auto">
-                <time label="elapsed">2.8</time>
-                <time label="device">2.8</time>
+                <time label="elapsed">3.8</time>
+                <time label="device">3.8</time>
                 <time label="system">0</time>
-                <time label="ux">2.8</time>
+                <time label="ux">3.8</time>
               </timer>
             </timers>
           </output>
           <parameters>
             <parameter type="handset">
               <name displayName="Device ID">handsetId</name>
-              <value>DD4A3714896782AF31F770D2871A4DDBDBD6632F</value>
+              <value>3133BB296C46FA2250362A227BA462A56ED11A45</value>
             </parameter>
             <parameter type="string">
               <name displayName="Element identifier">value</name>
@@ -2386,19 +2444,19 @@
             <name displayName="Application.Element.Click">application.element click</name>
             <errorPolicy>continue</errorPolicy>
             <dataItems>
-              <dataItem label="actual" type="image" format="jpeg" displayName="DD4A3714896782AF31F770D2871A4DDBDBD6632F_06_29_30_1090974_act.jpeg">
-                <attachment>images\DD4A3714896782AF31F770D2871A4DDBDBD6632F_06_29_30_1090974_act.jpeg</attachment>
+              <dataItem label="actual" type="image" format="jpeg" displayName="3133BB296C46FA2250362A227BA462A56ED11A45_12_54_53_47447_act.jpeg">
+                <attachment>images\3133BB296C46FA2250362A227BA462A56ED11A45_12_54_53_47447_act.jpeg</attachment>
               </dataItem>
             </dataItems>
             <times>
               <flowTimes>
                 <start>
-                  <millis>1468477770399</millis>
-                  <formatted>2016-07-14:06-29-30 GMT</formatted>
+                  <millis>1469019293442</millis>
+                  <formatted>2016-07-20:12-54-53 GMT</formatted>
                 </start>
                 <end>
-                  <millis>1468477772954</millis>
-                  <formatted>2016-07-14:06-29-32 GMT</formatted>
+                  <millis>1469019296146</millis>
+                  <formatted>2016-07-20:12-54-56 GMT</formatted>
                 </end>
               </flowTimes>
             </times>
@@ -2411,17 +2469,17 @@
             </status>
             <timers>
               <timer id="auto">
-                <time label="elapsed">2.6</time>
-                <time label="device">2.6</time>
+                <time label="elapsed">2.7</time>
+                <time label="device">2.7</time>
                 <time label="system">0</time>
-                <time label="ux">2.6</time>
+                <time label="ux">2.7</time>
               </timer>
             </timers>
           </output>
           <parameters>
             <parameter type="handset">
               <name displayName="Device ID">handsetId</name>
-              <value>DD4A3714896782AF31F770D2871A4DDBDBD6632F</value>
+              <value>3133BB296C46FA2250362A227BA462A56ED11A45</value>
             </parameter>
             <parameter type="string">
               <name displayName="Element identifier">value</name>
@@ -2442,19 +2500,19 @@
             <name displayName="Application.Element.Set">application.element set</name>
             <errorPolicy>continue</errorPolicy>
             <dataItems>
-              <dataItem label="actual" type="image" format="jpeg" displayName="DD4A3714896782AF31F770D2871A4DDBDBD6632F_06_29_33_1090980_act.jpeg">
-                <attachment>images\DD4A3714896782AF31F770D2871A4DDBDBD6632F_06_29_33_1090980_act.jpeg</attachment>
+              <dataItem label="actual" type="image" format="jpeg" displayName="3133BB296C46FA2250362A227BA462A56ED11A45_12_54_56_47449_act.jpeg">
+                <attachment>images\3133BB296C46FA2250362A227BA462A56ED11A45_12_54_56_47449_act.jpeg</attachment>
               </dataItem>
             </dataItems>
             <times>
               <flowTimes>
                 <start>
-                  <millis>1468477772955</millis>
-                  <formatted>2016-07-14:06-29-32 GMT</formatted>
+                  <millis>1469019296146</millis>
+                  <formatted>2016-07-20:12-54-56 GMT</formatted>
                 </start>
                 <end>
-                  <millis>1468477775821</millis>
-                  <formatted>2016-07-14:06-29-35 GMT</formatted>
+                  <millis>1469019300036</millis>
+                  <formatted>2016-07-20:12-55-00 GMT</formatted>
                 </end>
               </flowTimes>
             </times>
@@ -2467,17 +2525,17 @@
             </status>
             <timers>
               <timer id="auto">
-                <time label="elapsed">2.9</time>
-                <time label="device">2.9</time>
+                <time label="elapsed">3.9</time>
+                <time label="device">3.9</time>
                 <time label="system">0</time>
-                <time label="ux">2.9</time>
+                <time label="ux">3.9</time>
               </timer>
             </timers>
           </output>
           <parameters>
             <parameter type="handset">
               <name displayName="Device ID">handsetId</name>
-              <value>DD4A3714896782AF31F770D2871A4DDBDBD6632F</value>
+              <value>3133BB296C46FA2250362A227BA462A56ED11A45</value>
             </parameter>
             <parameter type="string">
               <name displayName="Text">text</name>
@@ -2502,19 +2560,19 @@
             <name displayName="Application.Element.Click">application.element click</name>
             <errorPolicy>continue</errorPolicy>
             <dataItems>
-              <dataItem label="actual" type="image" format="jpeg" displayName="DD4A3714896782AF31F770D2871A4DDBDBD6632F_06_29_36_1090986_act.jpeg">
-                <attachment>images\DD4A3714896782AF31F770D2871A4DDBDBD6632F_06_29_36_1090986_act.jpeg</attachment>
+              <dataItem label="actual" type="image" format="jpeg" displayName="3133BB296C46FA2250362A227BA462A56ED11A45_12_55_00_47451_act.jpeg">
+                <attachment>images\3133BB296C46FA2250362A227BA462A56ED11A45_12_55_00_47451_act.jpeg</attachment>
               </dataItem>
             </dataItems>
             <times>
               <flowTimes>
                 <start>
-                  <millis>1468477775822</millis>
-                  <formatted>2016-07-14:06-29-35 GMT</formatted>
+                  <millis>1469019300036</millis>
+                  <formatted>2016-07-20:12-55-00 GMT</formatted>
                 </start>
                 <end>
-                  <millis>1468477778187</millis>
-                  <formatted>2016-07-14:06-29-38 GMT</formatted>
+                  <millis>1469019302849</millis>
+                  <formatted>2016-07-20:12-55-02 GMT</formatted>
                 </end>
               </flowTimes>
             </times>
@@ -2527,17 +2585,17 @@
             </status>
             <timers>
               <timer id="auto">
-                <time label="elapsed">2.4</time>
-                <time label="device">2.4</time>
+                <time label="elapsed">2.8</time>
+                <time label="device">2.8</time>
                 <time label="system">0</time>
-                <time label="ux">2.4</time>
+                <time label="ux">2.8</time>
               </timer>
             </timers>
           </output>
           <parameters>
             <parameter type="handset">
               <name displayName="Device ID">handsetId</name>
-              <value>DD4A3714896782AF31F770D2871A4DDBDBD6632F</value>
+              <value>3133BB296C46FA2250362A227BA462A56ED11A45</value>
             </parameter>
             <parameter type="string">
               <name displayName="Element identifier">value</name>
@@ -2558,19 +2616,19 @@
             <name displayName="Application.Element.Set">application.element set</name>
             <errorPolicy>continue</errorPolicy>
             <dataItems>
-              <dataItem label="actual" type="image" format="jpeg" displayName="DD4A3714896782AF31F770D2871A4DDBDBD6632F_06_29_39_1090992_act.jpeg">
-                <attachment>images\DD4A3714896782AF31F770D2871A4DDBDBD6632F_06_29_39_1090992_act.jpeg</attachment>
+              <dataItem label="actual" type="image" format="jpeg" displayName="3133BB296C46FA2250362A227BA462A56ED11A45_12_55_02_47452_act.jpeg">
+                <attachment>images\3133BB296C46FA2250362A227BA462A56ED11A45_12_55_02_47452_act.jpeg</attachment>
               </dataItem>
             </dataItems>
             <times>
               <flowTimes>
                 <start>
-                  <millis>1468477778211</millis>
-                  <formatted>2016-07-14:06-29-38 GMT</formatted>
+                  <millis>1469019302849</millis>
+                  <formatted>2016-07-20:12-55-02 GMT</formatted>
                 </start>
                 <end>
-                  <millis>1468477783307</millis>
-                  <formatted>2016-07-14:06-29-43 GMT</formatted>
+                  <millis>1469019307787</millis>
+                  <formatted>2016-07-20:12-55-07 GMT</formatted>
                 </end>
               </flowTimes>
             </times>
@@ -2583,17 +2641,17 @@
             </status>
             <timers>
               <timer id="auto">
-                <time label="elapsed">5.1</time>
-                <time label="device">5.1</time>
+                <time label="elapsed">4.9</time>
+                <time label="device">4.9</time>
                 <time label="system">0</time>
-                <time label="ux">5.1</time>
+                <time label="ux">4.9</time>
               </timer>
             </timers>
           </output>
           <parameters>
             <parameter type="handset">
               <name displayName="Device ID">handsetId</name>
-              <value>DD4A3714896782AF31F770D2871A4DDBDBD6632F</value>
+              <value>3133BB296C46FA2250362A227BA462A56ED11A45</value>
             </parameter>
             <parameter type="string">
               <name displayName="Text">text</name>
@@ -2620,12 +2678,12 @@
             <times>
               <flowTimes>
                 <start>
-                  <millis>1468477783308</millis>
-                  <formatted>2016-07-14:06-29-43 GMT</formatted>
+                  <millis>1469019307787</millis>
+                  <formatted>2016-07-20:12-55-07 GMT</formatted>
                 </start>
                 <end>
-                  <millis>1468477786309</millis>
-                  <formatted>2016-07-14:06-29-46 GMT</formatted>
+                  <millis>1469019310787</millis>
+                  <formatted>2016-07-20:12-55-10 GMT</formatted>
                 </end>
               </flowTimes>
             </times>
@@ -2659,12 +2717,12 @@
             <times>
               <flowTimes>
                 <start>
-                  <millis>1468477786311</millis>
-                  <formatted>2016-07-14:06-29-46 GMT</formatted>
+                  <millis>1469019310787</millis>
+                  <formatted>2016-07-20:12-55-10 GMT</formatted>
                 </start>
                 <end>
-                  <millis>1468477786312</millis>
-                  <formatted>2016-07-14:06-29-46 GMT</formatted>
+                  <millis>1469019310787</millis>
+                  <formatted>2016-07-20:12-55-10 GMT</formatted>
                 </end>
               </flowTimes>
             </times>
@@ -2688,19 +2746,19 @@
             <name displayName="Application.Element.Click">application.element click</name>
             <errorPolicy>continue</errorPolicy>
             <dataItems>
-              <dataItem label="actual" type="image" format="jpeg" displayName="DD4A3714896782AF31F770D2871A4DDBDBD6632F_06_29_46_1091002_act.jpeg">
-                <attachment>images\DD4A3714896782AF31F770D2871A4DDBDBD6632F_06_29_46_1091002_act.jpeg</attachment>
+              <dataItem label="actual" type="image" format="jpeg" displayName="3133BB296C46FA2250362A227BA462A56ED11A45_12_55_11_47453_act.jpeg">
+                <attachment>images\3133BB296C46FA2250362A227BA462A56ED11A45_12_55_11_47453_act.jpeg</attachment>
               </dataItem>
             </dataItems>
             <times>
               <flowTimes>
                 <start>
-                  <millis>1468477786313</millis>
-                  <formatted>2016-07-14:06-29-46 GMT</formatted>
+                  <millis>1469019310787</millis>
+                  <formatted>2016-07-20:12-55-10 GMT</formatted>
                 </start>
                 <end>
-                  <millis>1468477788555</millis>
-                  <formatted>2016-07-14:06-29-48 GMT</formatted>
+                  <millis>1469019315287</millis>
+                  <formatted>2016-07-20:12-55-15 GMT</formatted>
                 </end>
               </flowTimes>
             </times>
@@ -2713,17 +2771,17 @@
             </status>
             <timers>
               <timer id="auto">
-                <time label="elapsed">2.2</time>
-                <time label="device">2.2</time>
+                <time label="elapsed">4.5</time>
+                <time label="device">4.5</time>
                 <time label="system">0</time>
-                <time label="ux">2.2</time>
+                <time label="ux">4.5</time>
               </timer>
             </timers>
           </output>
           <parameters>
             <parameter type="handset">
               <name displayName="Device ID">handsetId</name>
-              <value>DD4A3714896782AF31F770D2871A4DDBDBD6632F</value>
+              <value>3133BB296C46FA2250362A227BA462A56ED11A45</value>
             </parameter>
             <parameter type="string">
               <name displayName="Element identifier">value</name>
@@ -2744,8 +2802,8 @@
             <name displayName="Text checkpoint">checkpoint text</name>
             <errorPolicy>ignore</errorPolicy>
             <dataItems>
-              <dataItem label="actual" type="image" format="jpeg" displayName="DD4A3714896782AF31F770D2871A4DDBDBD6632F_06_29_55_1091017_act.jpeg">
-                <attachment>images\DD4A3714896782AF31F770D2871A4DDBDBD6632F_06_29_55_1091017_act.jpeg</attachment>
+              <dataItem label="actual" type="image" format="jpeg" displayName="3133BB296C46FA2250362A227BA462A56ED11A45_12_55_25_47454_act.jpeg">
+                <attachment>images\3133BB296C46FA2250362A227BA462A56ED11A45_12_55_25_47454_act.jpeg</attachment>
               </dataItem>
               <dataItem label="expected" type="string">
                 <value>LINK</value>
@@ -2754,12 +2812,12 @@
             <times>
               <flowTimes>
                 <start>
-                  <millis>1468477788555</millis>
-                  <formatted>2016-07-14:06-29-48 GMT</formatted>
+                  <millis>1469019315287</millis>
+                  <formatted>2016-07-20:12-55-15 GMT</formatted>
                 </start>
                 <end>
-                  <millis>1468477795299</millis>
-                  <formatted>2016-07-14:06-29-55 GMT</formatted>
+                  <millis>1469019325287</millis>
+                  <formatted>2016-07-20:12-55-25 GMT</formatted>
                 </end>
               </flowTimes>
             </times>
@@ -2772,17 +2830,17 @@
             </status>
             <timers>
               <timer id="auto">
-                <time label="elapsed">6.7</time>
-                <time label="device">3</time>
-                <time label="system">3.8</time>
-                <time label="ux">3</time>
+                <time label="elapsed">10</time>
+                <time label="device">3.6</time>
+                <time label="system">6.4</time>
+                <time label="ux">3.6</time>
               </timer>
             </timers>
           </output>
           <parameters>
             <parameter type="handset">
               <name displayName="Device ID">handsetId</name>
-              <value>DD4A3714896782AF31F770D2871A4DDBDBD6632F</value>
+              <value>3133BB296C46FA2250362A227BA462A56ED11A45</value>
             </parameter>
             <parameter type="string">
               <name displayName="Expected text (needle)">content</name>
@@ -2809,12 +2867,12 @@
             <times>
               <flowTimes>
                 <start>
-                  <millis>1468477795300</millis>
-                  <formatted>2016-07-14:06-29-55 GMT</formatted>
+                  <millis>1469019325287</millis>
+                  <formatted>2016-07-20:12-55-25 GMT</formatted>
                 </start>
                 <end>
-                  <millis>1468477795301</millis>
-                  <formatted>2016-07-14:06-29-55 GMT</formatted>
+                  <millis>1469019325287</millis>
+                  <formatted>2016-07-20:12-55-25 GMT</formatted>
                 </end>
               </flowTimes>
             </times>
@@ -2839,18 +2897,18 @@
             <errorPolicy>abort</errorPolicy>
             <dataItems>
               <dataItem label="actual" type="integer">
-                <value>5196</value>
+                <value>8150</value>
               </dataItem>
             </dataItems>
             <times>
               <flowTimes>
                 <start>
-                  <millis>1468477795302</millis>
-                  <formatted>2016-07-14:06-29-55 GMT</formatted>
+                  <millis>1469019325287</millis>
+                  <formatted>2016-07-20:12-55-25 GMT</formatted>
                 </start>
                 <end>
-                  <millis>1468477795304</millis>
-                  <formatted>2016-07-14:06-29-55 GMT</formatted>
+                  <millis>1469019325287</millis>
+                  <formatted>2016-07-20:12-55-25 GMT</formatted>
                 </end>
               </flowTimes>
             </times>
@@ -2886,19 +2944,19 @@
             <name displayName="Screenshot">screen image</name>
             <errorPolicy>continue</errorPolicy>
             <dataItems>
-              <dataItem label="actual" type="image" format="jpeg" displayName="DD4A3714896782AF31F770D2871A4DDBDBD6632F_06_29_55_1091018_act.jpeg">
-                <attachment>images\DD4A3714896782AF31F770D2871A4DDBDBD6632F_06_29_55_1091018_act.jpeg</attachment>
+              <dataItem label="actual" type="image" format="jpeg" displayName="3133BB296C46FA2250362A227BA462A56ED11A45_12_55_25_47455_act.jpeg">
+                <attachment>images\3133BB296C46FA2250362A227BA462A56ED11A45_12_55_25_47455_act.jpeg</attachment>
               </dataItem>
             </dataItems>
             <times>
               <flowTimes>
                 <start>
-                  <millis>1468477795305</millis>
-                  <formatted>2016-07-14:06-29-55 GMT</formatted>
+                  <millis>1469019325287</millis>
+                  <formatted>2016-07-20:12-55-25 GMT</formatted>
                 </start>
                 <end>
-                  <millis>1468477795433</millis>
-                  <formatted>2016-07-14:06-29-55 GMT</formatted>
+                  <millis>1469019325553</millis>
+                  <formatted>2016-07-20:12-55-25 GMT</formatted>
                 </end>
               </flowTimes>
             </times>
@@ -2911,9 +2969,9 @@
             </status>
             <timers>
               <timer id="auto">
-                <time label="elapsed">0.1</time>
+                <time label="elapsed">0.3</time>
                 <time label="device">0</time>
-                <time label="system">0.1</time>
+                <time label="system">0.3</time>
                 <time label="ux">0</time>
               </timer>
             </timers>
@@ -2921,11 +2979,11 @@
           <parameters>
             <parameter type="handset">
               <name displayName="Device ID">handsetId</name>
-              <value>DD4A3714896782AF31F770D2871A4DDBDBD6632F</value>
+              <value>3133BB296C46FA2250362A227BA462A56ED11A45</value>
             </parameter>
             <parameter type="string">
               <name displayName="Grid label">label</name>
-              <value>5196</value>
+              <value>8150</value>
             </parameter>
           </parameters>
         </action>
@@ -2934,19 +2992,19 @@
             <name displayName="Application.Element.Click">application.element click</name>
             <errorPolicy>continue</errorPolicy>
             <dataItems>
-              <dataItem label="actual" type="image" format="jpeg" displayName="DD4A3714896782AF31F770D2871A4DDBDBD6632F_06_29_55_1091020_act.jpeg">
-                <attachment>images\DD4A3714896782AF31F770D2871A4DDBDBD6632F_06_29_55_1091020_act.jpeg</attachment>
+              <dataItem label="actual" type="image" format="jpeg" displayName="3133BB296C46FA2250362A227BA462A56ED11A45_12_55_25_47456_act.jpeg">
+                <attachment>images\3133BB296C46FA2250362A227BA462A56ED11A45_12_55_25_47456_act.jpeg</attachment>
               </dataItem>
             </dataItems>
             <times>
               <flowTimes>
                 <start>
-                  <millis>1468477795434</millis>
-                  <formatted>2016-07-14:06-29-55 GMT</formatted>
+                  <millis>1469019325553</millis>
+                  <formatted>2016-07-20:12-55-25 GMT</formatted>
                 </start>
                 <end>
-                  <millis>1468477798193</millis>
-                  <formatted>2016-07-14:06-29-58 GMT</formatted>
+                  <millis>1469019328412</millis>
+                  <formatted>2016-07-20:12-55-28 GMT</formatted>
                 </end>
               </flowTimes>
             </times>
@@ -2959,17 +3017,17 @@
             </status>
             <timers>
               <timer id="auto">
-                <time label="elapsed">2.8</time>
-                <time label="device">2.8</time>
+                <time label="elapsed">2.9</time>
+                <time label="device">2.9</time>
                 <time label="system">0</time>
-                <time label="ux">2.8</time>
+                <time label="ux">2.9</time>
               </timer>
             </timers>
           </output>
           <parameters>
             <parameter type="handset">
               <name displayName="Device ID">handsetId</name>
-              <value>DD4A3714896782AF31F770D2871A4DDBDBD6632F</value>
+              <value>3133BB296C46FA2250362A227BA462A56ED11A45</value>
             </parameter>
             <parameter type="string">
               <name displayName="Element identifier">value</name>
@@ -2986,19 +3044,19 @@
             <name displayName="Application.Element.Click">application.element click</name>
             <errorPolicy>continue</errorPolicy>
             <dataItems>
-              <dataItem label="actual" type="image" format="jpeg" displayName="DD4A3714896782AF31F770D2871A4DDBDBD6632F_06_29_58_1091024_act.jpeg">
-                <attachment>images\DD4A3714896782AF31F770D2871A4DDBDBD6632F_06_29_58_1091024_act.jpeg</attachment>
+              <dataItem label="actual" type="image" format="jpeg" displayName="3133BB296C46FA2250362A227BA462A56ED11A45_12_55_28_47457_act.jpeg">
+                <attachment>images\3133BB296C46FA2250362A227BA462A56ED11A45_12_55_28_47457_act.jpeg</attachment>
               </dataItem>
             </dataItems>
             <times>
               <flowTimes>
                 <start>
-                  <millis>1468477798194</millis>
-                  <formatted>2016-07-14:06-29-58 GMT</formatted>
+                  <millis>1469019328412</millis>
+                  <formatted>2016-07-20:12-55-28 GMT</formatted>
                 </start>
                 <end>
-                  <millis>1468477800720</millis>
-                  <formatted>2016-07-14:06-30-00 GMT</formatted>
+                  <millis>1469019331397</millis>
+                  <formatted>2016-07-20:12-55-31 GMT</formatted>
                 </end>
               </flowTimes>
             </times>
@@ -3011,17 +3069,17 @@
             </status>
             <timers>
               <timer id="auto">
-                <time label="elapsed">2.5</time>
-                <time label="device">2.5</time>
+                <time label="elapsed">3</time>
+                <time label="device">3</time>
                 <time label="system">0</time>
-                <time label="ux">2.5</time>
+                <time label="ux">3</time>
               </timer>
             </timers>
           </output>
           <parameters>
             <parameter type="handset">
               <name displayName="Device ID">handsetId</name>
-              <value>DD4A3714896782AF31F770D2871A4DDBDBD6632F</value>
+              <value>3133BB296C46FA2250362A227BA462A56ED11A45</value>
             </parameter>
             <parameter type="string">
               <name displayName="Element identifier">value</name>
@@ -3049,12 +3107,12 @@
         <times>
           <flowTimes>
             <start>
-              <millis>1468477800721</millis>
-              <formatted>2016-07-14:06-30-00 GMT</formatted>
+              <millis>1469019331397</millis>
+              <formatted>2016-07-20:12-55-31 GMT</formatted>
             </start>
             <end>
-              <millis>1468477837474</millis>
-              <formatted>2016-07-14:06-30-37 GMT</formatted>
+              <millis>1469019375915</millis>
+              <formatted>2016-07-20:12-56-15 GMT</formatted>
             </end>
           </flowTimes>
         </times>
@@ -3076,19 +3134,19 @@
             <name displayName="Application.Element.Click">application.element click</name>
             <errorPolicy>continue</errorPolicy>
             <dataItems>
-              <dataItem label="actual" type="image" format="jpeg" displayName="DD4A3714896782AF31F770D2871A4DDBDBD6632F_06_30_00_1091027_act.jpeg">
-                <attachment>images\DD4A3714896782AF31F770D2871A4DDBDBD6632F_06_30_00_1091027_act.jpeg</attachment>
+              <dataItem label="actual" type="image" format="jpeg" displayName="3133BB296C46FA2250362A227BA462A56ED11A45_12_55_31_47458_act.jpeg">
+                <attachment>images\3133BB296C46FA2250362A227BA462A56ED11A45_12_55_31_47458_act.jpeg</attachment>
               </dataItem>
             </dataItems>
             <times>
               <flowTimes>
                 <start>
-                  <millis>1468477800722</millis>
-                  <formatted>2016-07-14:06-30-00 GMT</formatted>
+                  <millis>1469019331397</millis>
+                  <formatted>2016-07-20:12-55-31 GMT</formatted>
                 </start>
                 <end>
-                  <millis>1468477803134</millis>
-                  <formatted>2016-07-14:06-30-03 GMT</formatted>
+                  <millis>1469019334444</millis>
+                  <formatted>2016-07-20:12-55-34 GMT</formatted>
                 </end>
               </flowTimes>
             </times>
@@ -3101,17 +3159,17 @@
             </status>
             <timers>
               <timer id="auto">
-                <time label="elapsed">2.4</time>
-                <time label="device">2.4</time>
+                <time label="elapsed">3</time>
+                <time label="device">3</time>
                 <time label="system">0</time>
-                <time label="ux">2.4</time>
+                <time label="ux">3</time>
               </timer>
             </timers>
           </output>
           <parameters>
             <parameter type="handset">
               <name displayName="Device ID">handsetId</name>
-              <value>DD4A3714896782AF31F770D2871A4DDBDBD6632F</value>
+              <value>3133BB296C46FA2250362A227BA462A56ED11A45</value>
             </parameter>
             <parameter type="string">
               <name displayName="Element identifier">value</name>
@@ -3128,19 +3186,19 @@
             <name displayName="Application.Element.Click">application.element click</name>
             <errorPolicy>continue</errorPolicy>
             <dataItems>
-              <dataItem label="actual" type="image" format="jpeg" displayName="DD4A3714896782AF31F770D2871A4DDBDBD6632F_06_30_03_1091028_act.jpeg">
-                <attachment>images\DD4A3714896782AF31F770D2871A4DDBDBD6632F_06_30_03_1091028_act.jpeg</attachment>
+              <dataItem label="actual" type="image" format="jpeg" displayName="3133BB296C46FA2250362A227BA462A56ED11A45_12_55_34_47459_act.jpeg">
+                <attachment>images\3133BB296C46FA2250362A227BA462A56ED11A45_12_55_34_47459_act.jpeg</attachment>
               </dataItem>
             </dataItems>
             <times>
               <flowTimes>
                 <start>
-                  <millis>1468477803135</millis>
-                  <formatted>2016-07-14:06-30-03 GMT</formatted>
+                  <millis>1469019334444</millis>
+                  <formatted>2016-07-20:12-55-34 GMT</formatted>
                 </start>
                 <end>
-                  <millis>1468477805875</millis>
-                  <formatted>2016-07-14:06-30-05 GMT</formatted>
+                  <millis>1469019337631</millis>
+                  <formatted>2016-07-20:12-55-37 GMT</formatted>
                 </end>
               </flowTimes>
             </times>
@@ -3153,17 +3211,17 @@
             </status>
             <timers>
               <timer id="auto">
-                <time label="elapsed">2.7</time>
-                <time label="device">2.7</time>
+                <time label="elapsed">3.2</time>
+                <time label="device">3.2</time>
                 <time label="system">0</time>
-                <time label="ux">2.7</time>
+                <time label="ux">3.2</time>
               </timer>
             </timers>
           </output>
           <parameters>
             <parameter type="handset">
               <name displayName="Device ID">handsetId</name>
-              <value>DD4A3714896782AF31F770D2871A4DDBDBD6632F</value>
+              <value>3133BB296C46FA2250362A227BA462A56ED11A45</value>
             </parameter>
             <parameter type="string">
               <name displayName="Element identifier">value</name>
@@ -3188,19 +3246,19 @@
             <name displayName="Application.Element.Click">application.element click</name>
             <errorPolicy>continue</errorPolicy>
             <dataItems>
-              <dataItem label="actual" type="image" format="jpeg" displayName="DD4A3714896782AF31F770D2871A4DDBDBD6632F_06_30_05_1091029_act.jpeg">
-                <attachment>images\DD4A3714896782AF31F770D2871A4DDBDBD6632F_06_30_05_1091029_act.jpeg</attachment>
+              <dataItem label="actual" type="image" format="jpeg" displayName="3133BB296C46FA2250362A227BA462A56ED11A45_12_55_37_47460_act.jpeg">
+                <attachment>images\3133BB296C46FA2250362A227BA462A56ED11A45_12_55_37_47460_act.jpeg</attachment>
               </dataItem>
             </dataItems>
             <times>
               <flowTimes>
                 <start>
-                  <millis>1468477805877</millis>
-                  <formatted>2016-07-14:06-30-05 GMT</formatted>
+                  <millis>1469019337631</millis>
+                  <formatted>2016-07-20:12-55-37 GMT</formatted>
                 </start>
                 <end>
-                  <millis>1468477808381</millis>
-                  <formatted>2016-07-14:06-30-08 GMT</formatted>
+                  <millis>1469019340725</millis>
+                  <formatted>2016-07-20:12-55-40 GMT</formatted>
                 </end>
               </flowTimes>
             </times>
@@ -3213,17 +3271,17 @@
             </status>
             <timers>
               <timer id="auto">
-                <time label="elapsed">2.5</time>
-                <time label="device">2.5</time>
+                <time label="elapsed">3.1</time>
+                <time label="device">3.1</time>
                 <time label="system">0</time>
-                <time label="ux">2.5</time>
+                <time label="ux">3.1</time>
               </timer>
             </timers>
           </output>
           <parameters>
             <parameter type="handset">
               <name displayName="Device ID">handsetId</name>
-              <value>DD4A3714896782AF31F770D2871A4DDBDBD6632F</value>
+              <value>3133BB296C46FA2250362A227BA462A56ED11A45</value>
             </parameter>
             <parameter type="string">
               <name displayName="Element identifier">value</name>
@@ -3244,19 +3302,19 @@
             <name displayName="Application.Element.Set">application.element set</name>
             <errorPolicy>continue</errorPolicy>
             <dataItems>
-              <dataItem label="actual" type="image" format="jpeg" displayName="DD4A3714896782AF31F770D2871A4DDBDBD6632F_06_30_08_1091030_act.jpeg">
-                <attachment>images\DD4A3714896782AF31F770D2871A4DDBDBD6632F_06_30_08_1091030_act.jpeg</attachment>
+              <dataItem label="actual" type="image" format="jpeg" displayName="3133BB296C46FA2250362A227BA462A56ED11A45_12_55_41_47461_act.jpeg">
+                <attachment>images\3133BB296C46FA2250362A227BA462A56ED11A45_12_55_41_47461_act.jpeg</attachment>
               </dataItem>
             </dataItems>
             <times>
               <flowTimes>
                 <start>
-                  <millis>1468477808382</millis>
-                  <formatted>2016-07-14:06-30-08 GMT</formatted>
+                  <millis>1469019340725</millis>
+                  <formatted>2016-07-20:12-55-40 GMT</formatted>
                 </start>
                 <end>
-                  <millis>1468477811293</millis>
-                  <formatted>2016-07-14:06-30-11 GMT</formatted>
+                  <millis>1469019344444</millis>
+                  <formatted>2016-07-20:12-55-44 GMT</formatted>
                 </end>
               </flowTimes>
             </times>
@@ -3269,17 +3327,17 @@
             </status>
             <timers>
               <timer id="auto">
-                <time label="elapsed">2.9</time>
-                <time label="device">2.9</time>
+                <time label="elapsed">3.7</time>
+                <time label="device">3.7</time>
                 <time label="system">0</time>
-                <time label="ux">2.9</time>
+                <time label="ux">3.7</time>
               </timer>
             </timers>
           </output>
           <parameters>
             <parameter type="handset">
               <name displayName="Device ID">handsetId</name>
-              <value>DD4A3714896782AF31F770D2871A4DDBDBD6632F</value>
+              <value>3133BB296C46FA2250362A227BA462A56ED11A45</value>
             </parameter>
             <parameter type="string">
               <name displayName="Text">text</name>
@@ -3308,19 +3366,19 @@
             <name displayName="Application.Element.Click">application.element click</name>
             <errorPolicy>continue</errorPolicy>
             <dataItems>
-              <dataItem label="actual" type="image" format="jpeg" displayName="DD4A3714896782AF31F770D2871A4DDBDBD6632F_06_30_11_1091031_act.jpeg">
-                <attachment>images\DD4A3714896782AF31F770D2871A4DDBDBD6632F_06_30_11_1091031_act.jpeg</attachment>
+              <dataItem label="actual" type="image" format="jpeg" displayName="3133BB296C46FA2250362A227BA462A56ED11A45_12_55_44_47462_act.jpeg">
+                <attachment>images\3133BB296C46FA2250362A227BA462A56ED11A45_12_55_44_47462_act.jpeg</attachment>
               </dataItem>
             </dataItems>
             <times>
               <flowTimes>
                 <start>
-                  <millis>1468477811295</millis>
-                  <formatted>2016-07-14:06-30-11 GMT</formatted>
+                  <millis>1469019344444</millis>
+                  <formatted>2016-07-20:12-55-44 GMT</formatted>
                 </start>
                 <end>
-                  <millis>1468477813741</millis>
-                  <formatted>2016-07-14:06-30-13 GMT</formatted>
+                  <millis>1469019347694</millis>
+                  <formatted>2016-07-20:12-55-47 GMT</formatted>
                 </end>
               </flowTimes>
             </times>
@@ -3333,17 +3391,17 @@
             </status>
             <timers>
               <timer id="auto">
-                <time label="elapsed">2.4</time>
-                <time label="device">2.4</time>
+                <time label="elapsed">3.2</time>
+                <time label="device">3.2</time>
                 <time label="system">0</time>
-                <time label="ux">2.4</time>
+                <time label="ux">3.2</time>
               </timer>
             </timers>
           </output>
           <parameters>
             <parameter type="handset">
               <name displayName="Device ID">handsetId</name>
-              <value>DD4A3714896782AF31F770D2871A4DDBDBD6632F</value>
+              <value>3133BB296C46FA2250362A227BA462A56ED11A45</value>
             </parameter>
             <parameter type="string">
               <name displayName="Element identifier">value</name>
@@ -3364,19 +3422,19 @@
             <name displayName="Application.Element.Set">application.element set</name>
             <errorPolicy>continue</errorPolicy>
             <dataItems>
-              <dataItem label="actual" type="image" format="jpeg" displayName="DD4A3714896782AF31F770D2871A4DDBDBD6632F_06_30_13_1091032_act.jpeg">
-                <attachment>images\DD4A3714896782AF31F770D2871A4DDBDBD6632F_06_30_13_1091032_act.jpeg</attachment>
+              <dataItem label="actual" type="image" format="jpeg" displayName="3133BB296C46FA2250362A227BA462A56ED11A45_12_55_47_47463_act.jpeg">
+                <attachment>images\3133BB296C46FA2250362A227BA462A56ED11A45_12_55_47_47463_act.jpeg</attachment>
               </dataItem>
             </dataItems>
             <times>
               <flowTimes>
                 <start>
-                  <millis>1468477813743</millis>
-                  <formatted>2016-07-14:06-30-13 GMT</formatted>
+                  <millis>1469019347694</millis>
+                  <formatted>2016-07-20:12-55-47 GMT</formatted>
                 </start>
                 <end>
-                  <millis>1468477818181</millis>
-                  <formatted>2016-07-14:06-30-18 GMT</formatted>
+                  <millis>1469019353554</millis>
+                  <formatted>2016-07-20:12-55-53 GMT</formatted>
                 </end>
               </flowTimes>
             </times>
@@ -3389,17 +3447,17 @@
             </status>
             <timers>
               <timer id="auto">
-                <time label="elapsed">4.4</time>
-                <time label="device">4.4</time>
+                <time label="elapsed">5.9</time>
+                <time label="device">5.9</time>
                 <time label="system">0</time>
-                <time label="ux">4.4</time>
+                <time label="ux">5.9</time>
               </timer>
             </timers>
           </output>
           <parameters>
             <parameter type="handset">
               <name displayName="Device ID">handsetId</name>
-              <value>DD4A3714896782AF31F770D2871A4DDBDBD6632F</value>
+              <value>3133BB296C46FA2250362A227BA462A56ED11A45</value>
             </parameter>
             <parameter type="string">
               <name displayName="Text">text</name>
@@ -3430,12 +3488,12 @@
             <times>
               <flowTimes>
                 <start>
-                  <millis>1468477818182</millis>
-                  <formatted>2016-07-14:06-30-18 GMT</formatted>
+                  <millis>1469019353554</millis>
+                  <formatted>2016-07-20:12-55-53 GMT</formatted>
                 </start>
                 <end>
-                  <millis>1468477821183</millis>
-                  <formatted>2016-07-14:06-30-21 GMT</formatted>
+                  <millis>1469019356554</millis>
+                  <formatted>2016-07-20:12-55-56 GMT</formatted>
                 </end>
               </flowTimes>
             </times>
@@ -3469,12 +3527,12 @@
             <times>
               <flowTimes>
                 <start>
-                  <millis>1468477821184</millis>
-                  <formatted>2016-07-14:06-30-21 GMT</formatted>
+                  <millis>1469019356554</millis>
+                  <formatted>2016-07-20:12-55-56 GMT</formatted>
                 </start>
                 <end>
-                  <millis>1468477821186</millis>
-                  <formatted>2016-07-14:06-30-21 GMT</formatted>
+                  <millis>1469019356554</millis>
+                  <formatted>2016-07-20:12-55-56 GMT</formatted>
                 </end>
               </flowTimes>
             </times>
@@ -3498,19 +3556,19 @@
             <name displayName="Application.Element.Click">application.element click</name>
             <errorPolicy>continue</errorPolicy>
             <dataItems>
-              <dataItem label="actual" type="image" format="jpeg" displayName="DD4A3714896782AF31F770D2871A4DDBDBD6632F_06_30_21_1091036_act.jpeg">
-                <attachment>images\DD4A3714896782AF31F770D2871A4DDBDBD6632F_06_30_21_1091036_act.jpeg</attachment>
+              <dataItem label="actual" type="image" format="jpeg" displayName="3133BB296C46FA2250362A227BA462A56ED11A45_12_55_56_47465_act.jpeg">
+                <attachment>images\3133BB296C46FA2250362A227BA462A56ED11A45_12_55_56_47465_act.jpeg</attachment>
               </dataItem>
             </dataItems>
             <times>
               <flowTimes>
                 <start>
-                  <millis>1468477821187</millis>
-                  <formatted>2016-07-14:06-30-21 GMT</formatted>
+                  <millis>1469019356554</millis>
+                  <formatted>2016-07-20:12-55-56 GMT</formatted>
                 </start>
                 <end>
-                  <millis>1468477824082</millis>
-                  <formatted>2016-07-14:06-30-24 GMT</formatted>
+                  <millis>1469019359398</millis>
+                  <formatted>2016-07-20:12-55-59 GMT</formatted>
                 </end>
               </flowTimes>
             </times>
@@ -3523,17 +3581,17 @@
             </status>
             <timers>
               <timer id="auto">
-                <time label="elapsed">2.9</time>
-                <time label="device">2.9</time>
+                <time label="elapsed">2.8</time>
+                <time label="device">2.8</time>
                 <time label="system">0</time>
-                <time label="ux">2.9</time>
+                <time label="ux">2.8</time>
               </timer>
             </timers>
           </output>
           <parameters>
             <parameter type="handset">
               <name displayName="Device ID">handsetId</name>
-              <value>DD4A3714896782AF31F770D2871A4DDBDBD6632F</value>
+              <value>3133BB296C46FA2250362A227BA462A56ED11A45</value>
             </parameter>
             <parameter type="string">
               <name displayName="Element identifier">value</name>
@@ -3554,8 +3612,8 @@
             <name displayName="Text checkpoint">checkpoint text</name>
             <errorPolicy>ignore</errorPolicy>
             <dataItems>
-              <dataItem label="actual" type="image" format="jpeg" displayName="DD4A3714896782AF31F770D2871A4DDBDBD6632F_06_30_32_1091037_act.jpeg">
-                <attachment>images\DD4A3714896782AF31F770D2871A4DDBDBD6632F_06_30_32_1091037_act.jpeg</attachment>
+              <dataItem label="actual" type="image" format="jpeg" displayName="3133BB296C46FA2250362A227BA462A56ED11A45_12_56_05_47466_act.jpeg">
+                <attachment>images\3133BB296C46FA2250362A227BA462A56ED11A45_12_56_05_47466_act.jpeg</attachment>
               </dataItem>
               <dataItem label="expected" type="string">
                 <value>POST</value>
@@ -3564,12 +3622,12 @@
             <times>
               <flowTimes>
                 <start>
-                  <millis>1468477824083</millis>
-                  <formatted>2016-07-14:06-30-24 GMT</formatted>
+                  <millis>1469019359398</millis>
+                  <formatted>2016-07-20:12-55-59 GMT</formatted>
                 </start>
                 <end>
-                  <millis>1468477832108</millis>
-                  <formatted>2016-07-14:06-30-32 GMT</formatted>
+                  <millis>1469019365133</millis>
+                  <formatted>2016-07-20:12-56-05 GMT</formatted>
                 </end>
               </flowTimes>
             </times>
@@ -3582,17 +3640,17 @@
             </status>
             <timers>
               <timer id="auto">
-                <time label="elapsed">8</time>
-                <time label="device">6</time>
-                <time label="system">2</time>
-                <time label="ux">6</time>
+                <time label="elapsed">5.7</time>
+                <time label="device">2.7</time>
+                <time label="system">3.1</time>
+                <time label="ux">2.7</time>
               </timer>
             </timers>
           </output>
           <parameters>
             <parameter type="handset">
               <name displayName="Device ID">handsetId</name>
-              <value>DD4A3714896782AF31F770D2871A4DDBDBD6632F</value>
+              <value>3133BB296C46FA2250362A227BA462A56ED11A45</value>
             </parameter>
             <parameter type="string">
               <name displayName="Expected text (needle)">content</name>
@@ -3619,12 +3677,12 @@
             <times>
               <flowTimes>
                 <start>
-                  <millis>1468477832109</millis>
-                  <formatted>2016-07-14:06-30-32 GMT</formatted>
+                  <millis>1469019365133</millis>
+                  <formatted>2016-07-20:12-56-05 GMT</formatted>
                 </start>
                 <end>
-                  <millis>1468477832110</millis>
-                  <formatted>2016-07-14:06-30-32 GMT</formatted>
+                  <millis>1469019365133</millis>
+                  <formatted>2016-07-20:12-56-05 GMT</formatted>
                 </end>
               </flowTimes>
             </times>
@@ -3649,18 +3707,18 @@
             <errorPolicy>abort</errorPolicy>
             <dataItems>
               <dataItem label="actual" type="integer">
-                <value>8880</value>
+                <value>5514</value>
               </dataItem>
             </dataItems>
             <times>
               <flowTimes>
                 <start>
-                  <millis>1468477832111</millis>
-                  <formatted>2016-07-14:06-30-32 GMT</formatted>
+                  <millis>1469019365133</millis>
+                  <formatted>2016-07-20:12-56-05 GMT</formatted>
                 </start>
                 <end>
-                  <millis>1468477832112</millis>
-                  <formatted>2016-07-14:06-30-32 GMT</formatted>
+                  <millis>1469019365133</millis>
+                  <formatted>2016-07-20:12-56-05 GMT</formatted>
                 </end>
               </flowTimes>
             </times>
@@ -3696,19 +3754,19 @@
             <name displayName="Screenshot">screen image</name>
             <errorPolicy>continue</errorPolicy>
             <dataItems>
-              <dataItem label="actual" type="image" format="jpeg" displayName="DD4A3714896782AF31F770D2871A4DDBDBD6632F_06_30_32_1091038_act.jpeg">
-                <attachment>images\DD4A3714896782AF31F770D2871A4DDBDBD6632F_06_30_32_1091038_act.jpeg</attachment>
+              <dataItem label="actual" type="image" format="jpeg" displayName="3133BB296C46FA2250362A227BA462A56ED11A45_12_56_05_47467_act.jpeg">
+                <attachment>images\3133BB296C46FA2250362A227BA462A56ED11A45_12_56_05_47467_act.jpeg</attachment>
               </dataItem>
             </dataItems>
             <times>
               <flowTimes>
                 <start>
-                  <millis>1468477832113</millis>
-                  <formatted>2016-07-14:06-30-32 GMT</formatted>
+                  <millis>1469019365133</millis>
+                  <formatted>2016-07-20:12-56-05 GMT</formatted>
                 </start>
                 <end>
-                  <millis>1468477832471</millis>
-                  <formatted>2016-07-14:06-30-32 GMT</formatted>
+                  <millis>1469019365258</millis>
+                  <formatted>2016-07-20:12-56-05 GMT</formatted>
                 </end>
               </flowTimes>
             </times>
@@ -3721,9 +3779,9 @@
             </status>
             <timers>
               <timer id="auto">
-                <time label="elapsed">0.4</time>
+                <time label="elapsed">0.1</time>
                 <time label="device">0</time>
-                <time label="system">0.4</time>
+                <time label="system">0.1</time>
                 <time label="ux">0</time>
               </timer>
             </timers>
@@ -3731,11 +3789,11 @@
           <parameters>
             <parameter type="handset">
               <name displayName="Device ID">handsetId</name>
-              <value>DD4A3714896782AF31F770D2871A4DDBDBD6632F</value>
+              <value>3133BB296C46FA2250362A227BA462A56ED11A45</value>
             </parameter>
             <parameter type="string">
               <name displayName="Grid label">label</name>
-              <value>8880</value>
+              <value>5514</value>
             </parameter>
           </parameters>
         </action>
@@ -3744,19 +3802,19 @@
             <name displayName="Application.Element.Click">application.element click</name>
             <errorPolicy>continue</errorPolicy>
             <dataItems>
-              <dataItem label="actual" type="image" format="jpeg" displayName="DD4A3714896782AF31F770D2871A4DDBDBD6632F_06_30_32_1091039_act.jpeg">
-                <attachment>images\DD4A3714896782AF31F770D2871A4DDBDBD6632F_06_30_32_1091039_act.jpeg</attachment>
+              <dataItem label="actual" type="image" format="jpeg" displayName="3133BB296C46FA2250362A227BA462A56ED11A45_12_56_05_47468_act.jpeg">
+                <attachment>images\3133BB296C46FA2250362A227BA462A56ED11A45_12_56_05_47468_act.jpeg</attachment>
               </dataItem>
             </dataItems>
             <times>
               <flowTimes>
                 <start>
-                  <millis>1468477832472</millis>
-                  <formatted>2016-07-14:06-30-32 GMT</formatted>
+                  <millis>1469019365258</millis>
+                  <formatted>2016-07-20:12-56-05 GMT</formatted>
                 </start>
                 <end>
-                  <millis>1468477834931</millis>
-                  <formatted>2016-07-14:06-30-34 GMT</formatted>
+                  <millis>1469019370836</millis>
+                  <formatted>2016-07-20:12-56-10 GMT</formatted>
                 </end>
               </flowTimes>
             </times>
@@ -3769,17 +3827,17 @@
             </status>
             <timers>
               <timer id="auto">
-                <time label="elapsed">2.5</time>
-                <time label="device">2.5</time>
+                <time label="elapsed">5.6</time>
+                <time label="device">5.6</time>
                 <time label="system">0</time>
-                <time label="ux">2.5</time>
+                <time label="ux">5.6</time>
               </timer>
             </timers>
           </output>
           <parameters>
             <parameter type="handset">
               <name displayName="Device ID">handsetId</name>
-              <value>DD4A3714896782AF31F770D2871A4DDBDBD6632F</value>
+              <value>3133BB296C46FA2250362A227BA462A56ED11A45</value>
             </parameter>
             <parameter type="string">
               <name displayName="Element identifier">value</name>
@@ -3804,19 +3862,19 @@
             <name displayName="Application.Element.Click">application.element click</name>
             <errorPolicy>continue</errorPolicy>
             <dataItems>
-              <dataItem label="actual" type="image" format="jpeg" displayName="DD4A3714896782AF31F770D2871A4DDBDBD6632F_06_30_35_1091040_act.jpeg">
-                <attachment>images\DD4A3714896782AF31F770D2871A4DDBDBD6632F_06_30_35_1091040_act.jpeg</attachment>
+              <dataItem label="actual" type="image" format="jpeg" displayName="3133BB296C46FA2250362A227BA462A56ED11A45_12_56_10_47470_act.jpeg">
+                <attachment>images\3133BB296C46FA2250362A227BA462A56ED11A45_12_56_10_47470_act.jpeg</attachment>
               </dataItem>
             </dataItems>
             <times>
               <flowTimes>
                 <start>
-                  <millis>1468477834932</millis>
-                  <formatted>2016-07-14:06-30-34 GMT</formatted>
+                  <millis>1469019370836</millis>
+                  <formatted>2016-07-20:12-56-10 GMT</formatted>
                 </start>
                 <end>
-                  <millis>1468477837473</millis>
-                  <formatted>2016-07-14:06-30-37 GMT</formatted>
+                  <millis>1469019375915</millis>
+                  <formatted>2016-07-20:12-56-15 GMT</formatted>
                 </end>
               </flowTimes>
             </times>
@@ -3829,17 +3887,17 @@
             </status>
             <timers>
               <timer id="auto">
-                <time label="elapsed">2.5</time>
-                <time label="device">2.5</time>
+                <time label="elapsed">5.1</time>
+                <time label="device">5.1</time>
                 <time label="system">0</time>
-                <time label="ux">2.5</time>
+                <time label="ux">5.1</time>
               </timer>
             </timers>
           </output>
           <parameters>
             <parameter type="handset">
               <name displayName="Device ID">handsetId</name>
-              <value>DD4A3714896782AF31F770D2871A4DDBDBD6632F</value>
+              <value>3133BB296C46FA2250362A227BA462A56ED11A45</value>
             </parameter>
             <parameter type="string">
               <name displayName="Element identifier">value</name>
@@ -3867,12 +3925,12 @@
         <times>
           <flowTimes>
             <start>
-              <millis>1468477837474</millis>
-              <formatted>2016-07-14:06-30-37 GMT</formatted>
+              <millis>1469019375915</millis>
+              <formatted>2016-07-20:12-56-15 GMT</formatted>
             </start>
             <end>
-              <millis>1468477883139</millis>
-              <formatted>2016-07-14:06-31-23 GMT</formatted>
+              <millis>1469019422589</millis>
+              <formatted>2016-07-20:12-57-02 GMT</formatted>
             </end>
           </flowTimes>
         </times>
@@ -3894,19 +3952,19 @@
             <name displayName="Application.Element.Click">application.element click</name>
             <errorPolicy>continue</errorPolicy>
             <dataItems>
-              <dataItem label="actual" type="image" format="jpeg" displayName="DD4A3714896782AF31F770D2871A4DDBDBD6632F_06_30_37_1091041_act.jpeg">
-                <attachment>images\DD4A3714896782AF31F770D2871A4DDBDBD6632F_06_30_37_1091041_act.jpeg</attachment>
+              <dataItem label="actual" type="image" format="jpeg" displayName="3133BB296C46FA2250362A227BA462A56ED11A45_12_56_16_47471_act.jpeg">
+                <attachment>images\3133BB296C46FA2250362A227BA462A56ED11A45_12_56_16_47471_act.jpeg</attachment>
               </dataItem>
             </dataItems>
             <times>
               <flowTimes>
                 <start>
-                  <millis>1468477837475</millis>
-                  <formatted>2016-07-14:06-30-37 GMT</formatted>
+                  <millis>1469019375915</millis>
+                  <formatted>2016-07-20:12-56-15 GMT</formatted>
                 </start>
                 <end>
-                  <millis>1468477840042</millis>
-                  <formatted>2016-07-14:06-30-40 GMT</formatted>
+                  <millis>1469019381149</millis>
+                  <formatted>2016-07-20:12-56-21 GMT</formatted>
                 </end>
               </flowTimes>
             </times>
@@ -3919,17 +3977,17 @@
             </status>
             <timers>
               <timer id="auto">
-                <time label="elapsed">2.6</time>
-                <time label="device">2.6</time>
+                <time label="elapsed">5.2</time>
+                <time label="device">5.2</time>
                 <time label="system">0</time>
-                <time label="ux">2.6</time>
+                <time label="ux">5.2</time>
               </timer>
             </timers>
           </output>
           <parameters>
             <parameter type="handset">
               <name displayName="Device ID">handsetId</name>
-              <value>DD4A3714896782AF31F770D2871A4DDBDBD6632F</value>
+              <value>3133BB296C46FA2250362A227BA462A56ED11A45</value>
             </parameter>
             <parameter type="string">
               <name displayName="Element identifier">value</name>
@@ -3946,19 +4004,19 @@
             <name displayName="Application.Element.Click">application.element click</name>
             <errorPolicy>continue</errorPolicy>
             <dataItems>
-              <dataItem label="actual" type="image" format="jpeg" displayName="DD4A3714896782AF31F770D2871A4DDBDBD6632F_06_30_40_1091043_act.jpeg">
-                <attachment>images\DD4A3714896782AF31F770D2871A4DDBDBD6632F_06_30_40_1091043_act.jpeg</attachment>
+              <dataItem label="actual" type="image" format="jpeg" displayName="3133BB296C46FA2250362A227BA462A56ED11A45_12_56_21_47472_act.jpeg">
+                <attachment>images\3133BB296C46FA2250362A227BA462A56ED11A45_12_56_21_47472_act.jpeg</attachment>
               </dataItem>
             </dataItems>
             <times>
               <flowTimes>
                 <start>
-                  <millis>1468477840043</millis>
-                  <formatted>2016-07-14:06-30-40 GMT</formatted>
+                  <millis>1469019381149</millis>
+                  <formatted>2016-07-20:12-56-21 GMT</formatted>
                 </start>
                 <end>
-                  <millis>1468477842916</millis>
-                  <formatted>2016-07-14:06-30-42 GMT</formatted>
+                  <millis>1469019386962</millis>
+                  <formatted>2016-07-20:12-56-26 GMT</formatted>
                 </end>
               </flowTimes>
             </times>
@@ -3971,17 +4029,17 @@
             </status>
             <timers>
               <timer id="auto">
-                <time label="elapsed">2.9</time>
-                <time label="device">2.9</time>
+                <time label="elapsed">5.8</time>
+                <time label="device">5.8</time>
                 <time label="system">0</time>
-                <time label="ux">2.9</time>
+                <time label="ux">5.8</time>
               </timer>
             </timers>
           </output>
           <parameters>
             <parameter type="handset">
               <name displayName="Device ID">handsetId</name>
-              <value>DD4A3714896782AF31F770D2871A4DDBDBD6632F</value>
+              <value>3133BB296C46FA2250362A227BA462A56ED11A45</value>
             </parameter>
             <parameter type="string">
               <name displayName="Element identifier">value</name>
@@ -4006,19 +4064,19 @@
             <name displayName="Application.Element.Click">application.element click</name>
             <errorPolicy>continue</errorPolicy>
             <dataItems>
-              <dataItem label="actual" type="image" format="jpeg" displayName="DD4A3714896782AF31F770D2871A4DDBDBD6632F_06_30_43_1091045_act.jpeg">
-                <attachment>images\DD4A3714896782AF31F770D2871A4DDBDBD6632F_06_30_43_1091045_act.jpeg</attachment>
+              <dataItem label="actual" type="image" format="jpeg" displayName="3133BB296C46FA2250362A227BA462A56ED11A45_12_56_27_47473_act.jpeg">
+                <attachment>images\3133BB296C46FA2250362A227BA462A56ED11A45_12_56_27_47473_act.jpeg</attachment>
               </dataItem>
             </dataItems>
             <times>
               <flowTimes>
                 <start>
-                  <millis>1468477842917</millis>
-                  <formatted>2016-07-14:06-30-42 GMT</formatted>
+                  <millis>1469019386962</millis>
+                  <formatted>2016-07-20:12-56-26 GMT</formatted>
                 </start>
                 <end>
-                  <millis>1468477845460</millis>
-                  <formatted>2016-07-14:06-30-45 GMT</formatted>
+                  <millis>1469019392166</millis>
+                  <formatted>2016-07-20:12-56-32 GMT</formatted>
                 </end>
               </flowTimes>
             </times>
@@ -4031,17 +4089,17 @@
             </status>
             <timers>
               <timer id="auto">
-                <time label="elapsed">2.5</time>
-                <time label="device">2.5</time>
+                <time label="elapsed">5.2</time>
+                <time label="device">5.2</time>
                 <time label="system">0</time>
-                <time label="ux">2.5</time>
+                <time label="ux">5.2</time>
               </timer>
             </timers>
           </output>
           <parameters>
             <parameter type="handset">
               <name displayName="Device ID">handsetId</name>
-              <value>DD4A3714896782AF31F770D2871A4DDBDBD6632F</value>
+              <value>3133BB296C46FA2250362A227BA462A56ED11A45</value>
             </parameter>
             <parameter type="string">
               <name displayName="Element identifier">value</name>
@@ -4062,19 +4120,19 @@
             <name displayName="Application.Element.Set">application.element set</name>
             <errorPolicy>continue</errorPolicy>
             <dataItems>
-              <dataItem label="actual" type="image" format="jpeg" displayName="DD4A3714896782AF31F770D2871A4DDBDBD6632F_06_30_45_1091047_act.jpeg">
-                <attachment>images\DD4A3714896782AF31F770D2871A4DDBDBD6632F_06_30_45_1091047_act.jpeg</attachment>
+              <dataItem label="actual" type="image" format="jpeg" displayName="3133BB296C46FA2250362A227BA462A56ED11A45_12_56_32_47476_act.jpeg">
+                <attachment>images\3133BB296C46FA2250362A227BA462A56ED11A45_12_56_32_47476_act.jpeg</attachment>
               </dataItem>
             </dataItems>
             <times>
               <flowTimes>
                 <start>
-                  <millis>1468477845461</millis>
-                  <formatted>2016-07-14:06-30-45 GMT</formatted>
+                  <millis>1469019392166</millis>
+                  <formatted>2016-07-20:12-56-32 GMT</formatted>
                 </start>
                 <end>
-                  <millis>1468477848398</millis>
-                  <formatted>2016-07-14:06-30-48 GMT</formatted>
+                  <millis>1469019398166</millis>
+                  <formatted>2016-07-20:12-56-38 GMT</formatted>
                 </end>
               </flowTimes>
             </times>
@@ -4087,17 +4145,17 @@
             </status>
             <timers>
               <timer id="auto">
-                <time label="elapsed">2.9</time>
-                <time label="device">2.9</time>
+                <time label="elapsed">6</time>
+                <time label="device">6</time>
                 <time label="system">0</time>
-                <time label="ux">2.9</time>
+                <time label="ux">6</time>
               </timer>
             </timers>
           </output>
           <parameters>
             <parameter type="handset">
               <name displayName="Device ID">handsetId</name>
-              <value>DD4A3714896782AF31F770D2871A4DDBDBD6632F</value>
+              <value>3133BB296C46FA2250362A227BA462A56ED11A45</value>
             </parameter>
             <parameter type="string">
               <name displayName="Text">text</name>
@@ -4126,19 +4184,19 @@
             <name displayName="Application.Element.Click">application.element click</name>
             <errorPolicy>continue</errorPolicy>
             <dataItems>
-              <dataItem label="actual" type="image" format="jpeg" displayName="DD4A3714896782AF31F770D2871A4DDBDBD6632F_06_30_48_1091049_act.jpeg">
-                <attachment>images\DD4A3714896782AF31F770D2871A4DDBDBD6632F_06_30_48_1091049_act.jpeg</attachment>
+              <dataItem label="actual" type="image" format="jpeg" displayName="3133BB296C46FA2250362A227BA462A56ED11A45_12_56_38_47477_act.jpeg">
+                <attachment>images\3133BB296C46FA2250362A227BA462A56ED11A45_12_56_38_47477_act.jpeg</attachment>
               </dataItem>
             </dataItems>
             <times>
               <flowTimes>
                 <start>
-                  <millis>1468477848399</millis>
-                  <formatted>2016-07-14:06-30-48 GMT</formatted>
+                  <millis>1469019398166</millis>
+                  <formatted>2016-07-20:12-56-38 GMT</formatted>
                 </start>
                 <end>
-                  <millis>1468477850682</millis>
-                  <formatted>2016-07-14:06-30-50 GMT</formatted>
+                  <millis>1469019402807</millis>
+                  <formatted>2016-07-20:12-56-42 GMT</formatted>
                 </end>
               </flowTimes>
             </times>
@@ -4151,17 +4209,17 @@
             </status>
             <timers>
               <timer id="auto">
-                <time label="elapsed">2.3</time>
-                <time label="device">2.3</time>
+                <time label="elapsed">4.6</time>
+                <time label="device">4.6</time>
                 <time label="system">0</time>
-                <time label="ux">2.3</time>
+                <time label="ux">4.6</time>
               </timer>
             </timers>
           </output>
           <parameters>
             <parameter type="handset">
               <name displayName="Device ID">handsetId</name>
-              <value>DD4A3714896782AF31F770D2871A4DDBDBD6632F</value>
+              <value>3133BB296C46FA2250362A227BA462A56ED11A45</value>
             </parameter>
             <parameter type="string">
               <name displayName="Element identifier">value</name>
@@ -4188,12 +4246,12 @@
             <times>
               <flowTimes>
                 <start>
-                  <millis>1468477850683</millis>
-                  <formatted>2016-07-14:06-30-50 GMT</formatted>
+                  <millis>1469019402807</millis>
+                  <formatted>2016-07-20:12-56-42 GMT</formatted>
                 </start>
                 <end>
-                  <millis>1468477853684</millis>
-                  <formatted>2016-07-14:06-30-53 GMT</formatted>
+                  <millis>1469019405807</millis>
+                  <formatted>2016-07-20:12-56-45 GMT</formatted>
                 </end>
               </flowTimes>
             </times>
@@ -4227,12 +4285,12 @@
             <times>
               <flowTimes>
                 <start>
-                  <millis>1468477853685</millis>
-                  <formatted>2016-07-14:06-30-53 GMT</formatted>
+                  <millis>1469019405807</millis>
+                  <formatted>2016-07-20:12-56-45 GMT</formatted>
                 </start>
                 <end>
-                  <millis>1468477853686</millis>
-                  <formatted>2016-07-14:06-30-53 GMT</formatted>
+                  <millis>1469019405807</millis>
+                  <formatted>2016-07-20:12-56-45 GMT</formatted>
                 </end>
               </flowTimes>
             </times>
@@ -4256,19 +4314,19 @@
             <name displayName="Application.Element.Click">application.element click</name>
             <errorPolicy>continue</errorPolicy>
             <dataItems>
-              <dataItem label="actual" type="image" format="jpeg" displayName="DD4A3714896782AF31F770D2871A4DDBDBD6632F_06_30_53_1091054_act.jpeg">
-                <attachment>images\DD4A3714896782AF31F770D2871A4DDBDBD6632F_06_30_53_1091054_act.jpeg</attachment>
+              <dataItem label="actual" type="image" format="jpeg" displayName="3133BB296C46FA2250362A227BA462A56ED11A45_12_56_45_47480_act.jpeg">
+                <attachment>images\3133BB296C46FA2250362A227BA462A56ED11A45_12_56_45_47480_act.jpeg</attachment>
               </dataItem>
             </dataItems>
             <times>
               <flowTimes>
                 <start>
-                  <millis>1468477853686</millis>
-                  <formatted>2016-07-14:06-30-53 GMT</formatted>
+                  <millis>1469019405807</millis>
+                  <formatted>2016-07-20:12-56-45 GMT</formatted>
                 </start>
                 <end>
-                  <millis>1468477856360</millis>
-                  <formatted>2016-07-14:06-30-56 GMT</formatted>
+                  <millis>1469019408807</millis>
+                  <formatted>2016-07-20:12-56-48 GMT</formatted>
                 </end>
               </flowTimes>
             </times>
@@ -4281,17 +4339,17 @@
             </status>
             <timers>
               <timer id="auto">
-                <time label="elapsed">2.7</time>
-                <time label="device">2.7</time>
+                <time label="elapsed">3</time>
+                <time label="device">3</time>
                 <time label="system">0</time>
-                <time label="ux">2.7</time>
+                <time label="ux">3</time>
               </timer>
             </timers>
           </output>
           <parameters>
             <parameter type="handset">
               <name displayName="Device ID">handsetId</name>
-              <value>DD4A3714896782AF31F770D2871A4DDBDBD6632F</value>
+              <value>3133BB296C46FA2250362A227BA462A56ED11A45</value>
             </parameter>
             <parameter type="string">
               <name displayName="Element identifier">value</name>
@@ -4312,8 +4370,8 @@
             <name displayName="Text checkpoint">checkpoint text</name>
             <errorPolicy>ignore</errorPolicy>
             <dataItems>
-              <dataItem label="actual" type="image" format="jpeg" displayName="DD4A3714896782AF31F770D2871A4DDBDBD6632F_06_31_01_1091056_act.jpeg">
-                <attachment>images\DD4A3714896782AF31F770D2871A4DDBDBD6632F_06_31_01_1091056_act.jpeg</attachment>
+              <dataItem label="actual" type="image" format="jpeg" displayName="3133BB296C46FA2250362A227BA462A56ED11A45_12_56_55_47481_act.jpeg">
+                <attachment>images\3133BB296C46FA2250362A227BA462A56ED11A45_12_56_55_47481_act.jpeg</attachment>
               </dataItem>
               <dataItem label="expected" type="string">
                 <value>LINK</value>
@@ -4322,12 +4380,12 @@
             <times>
               <flowTimes>
                 <start>
-                  <millis>1468477856362</millis>
-                  <formatted>2016-07-14:06-30-56 GMT</formatted>
+                  <millis>1469019408807</millis>
+                  <formatted>2016-07-20:12-56-48 GMT</formatted>
                 </start>
                 <end>
-                  <millis>1468477861778</millis>
-                  <formatted>2016-07-14:06-31-01 GMT</formatted>
+                  <millis>1469019415042</millis>
+                  <formatted>2016-07-20:12-56-55 GMT</formatted>
                 </end>
               </flowTimes>
             </times>
@@ -4340,17 +4398,17 @@
             </status>
             <timers>
               <timer id="auto">
-                <time label="elapsed">5.4</time>
-                <time label="device">2.4</time>
-                <time label="system">3</time>
-                <time label="ux">2.4</time>
+                <time label="elapsed">6.2</time>
+                <time label="device">0.8</time>
+                <time label="system">5.5</time>
+                <time label="ux">0.8</time>
               </timer>
             </timers>
           </output>
           <parameters>
             <parameter type="handset">
               <name displayName="Device ID">handsetId</name>
-              <value>DD4A3714896782AF31F770D2871A4DDBDBD6632F</value>
+              <value>3133BB296C46FA2250362A227BA462A56ED11A45</value>
             </parameter>
             <parameter type="string">
               <name displayName="Expected text (needle)">content</name>
@@ -4377,12 +4435,12 @@
             <times>
               <flowTimes>
                 <start>
-                  <millis>1468477861779</millis>
-                  <formatted>2016-07-14:06-31-01 GMT</formatted>
+                  <millis>1469019415042</millis>
+                  <formatted>2016-07-20:12-56-55 GMT</formatted>
                 </start>
                 <end>
-                  <millis>1468477861780</millis>
-                  <formatted>2016-07-14:06-31-01 GMT</formatted>
+                  <millis>1469019415042</millis>
+                  <formatted>2016-07-20:12-56-55 GMT</formatted>
                 </end>
               </flowTimes>
             </times>
@@ -4407,18 +4465,18 @@
             <errorPolicy>abort</errorPolicy>
             <dataItems>
               <dataItem label="actual" type="integer">
-                <value>5070</value>
+                <value>3784</value>
               </dataItem>
             </dataItems>
             <times>
               <flowTimes>
                 <start>
-                  <millis>1468477861781</millis>
-                  <formatted>2016-07-14:06-31-01 GMT</formatted>
+                  <millis>1469019415042</millis>
+                  <formatted>2016-07-20:12-56-55 GMT</formatted>
                 </start>
                 <end>
-                  <millis>1468477861782</millis>
-                  <formatted>2016-07-14:06-31-01 GMT</formatted>
+                  <millis>1469019415042</millis>
+                  <formatted>2016-07-20:12-56-55 GMT</formatted>
                 </end>
               </flowTimes>
             </times>
@@ -4454,19 +4512,19 @@
             <name displayName="Screenshot">screen image</name>
             <errorPolicy>continue</errorPolicy>
             <dataItems>
-              <dataItem label="actual" type="image" format="jpeg" displayName="DD4A3714896782AF31F770D2871A4DDBDBD6632F_06_31_01_1091057_act.jpeg">
-                <attachment>images\DD4A3714896782AF31F770D2871A4DDBDBD6632F_06_31_01_1091057_act.jpeg</attachment>
+              <dataItem label="actual" type="image" format="jpeg" displayName="3133BB296C46FA2250362A227BA462A56ED11A45_12_56_55_47482_act.jpeg">
+                <attachment>images\3133BB296C46FA2250362A227BA462A56ED11A45_12_56_55_47482_act.jpeg</attachment>
               </dataItem>
             </dataItems>
             <times>
               <flowTimes>
                 <start>
-                  <millis>1468477861783</millis>
-                  <formatted>2016-07-14:06-31-01 GMT</formatted>
+                  <millis>1469019415057</millis>
+                  <formatted>2016-07-20:12-56-55 GMT</formatted>
                 </start>
                 <end>
-                  <millis>1468477861902</millis>
-                  <formatted>2016-07-14:06-31-01 GMT</formatted>
+                  <millis>1469019415182</millis>
+                  <formatted>2016-07-20:12-56-55 GMT</formatted>
                 </end>
               </flowTimes>
             </times>
@@ -4489,11 +4547,11 @@
           <parameters>
             <parameter type="handset">
               <name displayName="Device ID">handsetId</name>
-              <value>DD4A3714896782AF31F770D2871A4DDBDBD6632F</value>
+              <value>3133BB296C46FA2250362A227BA462A56ED11A45</value>
             </parameter>
             <parameter type="string">
               <name displayName="Grid label">label</name>
-              <value>5070</value>
+              <value>3784</value>
             </parameter>
           </parameters>
         </action>
@@ -4502,19 +4560,19 @@
             <name displayName="Application.Element.Click">application.element click</name>
             <errorPolicy>continue</errorPolicy>
             <dataItems>
-              <dataItem label="actual" type="image" format="jpeg" displayName="DD4A3714896782AF31F770D2871A4DDBDBD6632F_06_31_01_1091058_act.jpeg">
-                <attachment>images\DD4A3714896782AF31F770D2871A4DDBDBD6632F_06_31_01_1091058_act.jpeg</attachment>
+              <dataItem label="actual" type="image" format="jpeg" displayName="3133BB296C46FA2250362A227BA462A56ED11A45_12_56_55_47483_act.jpeg">
+                <attachment>images\3133BB296C46FA2250362A227BA462A56ED11A45_12_56_55_47483_act.jpeg</attachment>
               </dataItem>
             </dataItems>
             <times>
               <flowTimes>
                 <start>
-                  <millis>1468477861903</millis>
-                  <formatted>2016-07-14:06-31-01 GMT</formatted>
+                  <millis>1469019415182</millis>
+                  <formatted>2016-07-20:12-56-55 GMT</formatted>
                 </start>
                 <end>
-                  <millis>1468477880521</millis>
-                  <formatted>2016-07-14:06-31-20 GMT</formatted>
+                  <millis>1469019419808</millis>
+                  <formatted>2016-07-20:12-56-59 GMT</formatted>
                 </end>
               </flowTimes>
             </times>
@@ -4527,17 +4585,17 @@
             </status>
             <timers>
               <timer id="auto">
-                <time label="elapsed">18.6</time>
-                <time label="device">18.6</time>
+                <time label="elapsed">4.6</time>
+                <time label="device">4.6</time>
                 <time label="system">0</time>
-                <time label="ux">18.6</time>
+                <time label="ux">4.6</time>
               </timer>
             </timers>
           </output>
           <parameters>
             <parameter type="handset">
               <name displayName="Device ID">handsetId</name>
-              <value>DD4A3714896782AF31F770D2871A4DDBDBD6632F</value>
+              <value>3133BB296C46FA2250362A227BA462A56ED11A45</value>
             </parameter>
             <parameter type="string">
               <name displayName="Element identifier">value</name>
@@ -4562,19 +4620,19 @@
             <name displayName="Application.Element.Click">application.element click</name>
             <errorPolicy>continue</errorPolicy>
             <dataItems>
-              <dataItem label="actual" type="image" format="jpeg" displayName="DD4A3714896782AF31F770D2871A4DDBDBD6632F_06_31_20_1091059_act.jpeg">
-                <attachment>images\DD4A3714896782AF31F770D2871A4DDBDBD6632F_06_31_20_1091059_act.jpeg</attachment>
+              <dataItem label="actual" type="image" format="jpeg" displayName="3133BB296C46FA2250362A227BA462A56ED11A45_12_57_00_47485_act.jpeg">
+                <attachment>images\3133BB296C46FA2250362A227BA462A56ED11A45_12_57_00_47485_act.jpeg</attachment>
               </dataItem>
             </dataItems>
             <times>
               <flowTimes>
                 <start>
-                  <millis>1468477880522</millis>
-                  <formatted>2016-07-14:06-31-20 GMT</formatted>
+                  <millis>1469019419808</millis>
+                  <formatted>2016-07-20:12-56-59 GMT</formatted>
                 </start>
                 <end>
-                  <millis>1468477883138</millis>
-                  <formatted>2016-07-14:06-31-23 GMT</formatted>
+                  <millis>1469019422589</millis>
+                  <formatted>2016-07-20:12-57-02 GMT</formatted>
                 </end>
               </flowTimes>
             </times>
@@ -4587,17 +4645,17 @@
             </status>
             <timers>
               <timer id="auto">
-                <time label="elapsed">2.6</time>
-                <time label="device">2.6</time>
+                <time label="elapsed">2.8</time>
+                <time label="device">2.8</time>
                 <time label="system">0</time>
-                <time label="ux">2.6</time>
+                <time label="ux">2.8</time>
               </timer>
             </timers>
           </output>
           <parameters>
             <parameter type="handset">
               <name displayName="Device ID">handsetId</name>
-              <value>DD4A3714896782AF31F770D2871A4DDBDBD6632F</value>
+              <value>3133BB296C46FA2250362A227BA462A56ED11A45</value>
             </parameter>
             <parameter type="string">
               <name displayName="Element identifier">value</name>
@@ -4625,12 +4683,12 @@
         <times>
           <flowTimes>
             <start>
-              <millis>1468477883140</millis>
-              <formatted>2016-07-14:06-31-23 GMT</formatted>
+              <millis>1469019422589</millis>
+              <formatted>2016-07-20:12-57-02 GMT</formatted>
             </start>
             <end>
-              <millis>1468477886003</millis>
-              <formatted>2016-07-14:06-31-26 GMT</formatted>
+              <millis>1469019435777</millis>
+              <formatted>2016-07-20:12-57-15 GMT</formatted>
             </end>
           </flowTimes>
         </times>
@@ -4654,12 +4712,12 @@
             <times>
               <flowTimes>
                 <start>
-                  <millis>1468477883141</millis>
-                  <formatted>2016-07-14:06-31-23 GMT</formatted>
+                  <millis>1469019422589</millis>
+                  <formatted>2016-07-20:12-57-02 GMT</formatted>
                 </start>
                 <end>
-                  <millis>1468477886002</millis>
-                  <formatted>2016-07-14:06-31-26 GMT</formatted>
+                  <millis>1469019435777</millis>
+                  <formatted>2016-07-20:12-57-15 GMT</formatted>
                 </end>
               </flowTimes>
             </times>
@@ -4672,21 +4730,25 @@
             </status>
             <timers>
               <timer id="auto">
-                <time label="elapsed">2.9</time>
-                <time label="device">2.9</time>
+                <time label="elapsed">13.2</time>
+                <time label="device">13.2</time>
                 <time label="system">0</time>
-                <time label="ux">2.9</time>
+                <time label="ux">13.2</time>
               </timer>
             </timers>
           </output>
           <parameters>
             <parameter type="handset">
               <name displayName="Device ID">handsetId</name>
-              <value>DD4A3714896782AF31F770D2871A4DDBDBD6632F</value>
+              <value>3133BB296C46FA2250362A227BA462A56ED11A45</value>
             </parameter>
             <parameter type="string">
               <name displayName="Application name">name</name>
               <value>Salesforce1</value>
+            </parameter>
+            <parameter type="string">
+              <name displayName="Application identifier">identifier</name>
+              <value>com.salesforce.internal.chatter2</value>
             </parameter>
           </parameters>
         </action>
@@ -4698,12 +4760,12 @@
         <times>
           <flowTimes>
             <start>
-              <millis>1468477886003</millis>
-              <formatted>2016-07-14:06-31-26 GMT</formatted>
+              <millis>1469019435777</millis>
+              <formatted>2016-07-20:12-57-15 GMT</formatted>
             </start>
             <end>
-              <millis>1468477892534</millis>
-              <formatted>2016-07-14:06-31-32 GMT</formatted>
+              <millis>1469019447027</millis>
+              <formatted>2016-07-20:12-57-27 GMT</formatted>
             </end>
           </flowTimes>
         </times>
@@ -4727,12 +4789,12 @@
             <times>
               <flowTimes>
                 <start>
-                  <millis>1468477886004</millis>
-                  <formatted>2016-07-14:06-31-26 GMT</formatted>
+                  <millis>1469019435777</millis>
+                  <formatted>2016-07-20:12-57-15 GMT</formatted>
                 </start>
                 <end>
-                  <millis>1468477892533</millis>
-                  <formatted>2016-07-14:06-31-32 GMT</formatted>
+                  <millis>1469019447027</millis>
+                  <formatted>2016-07-20:12-57-27 GMT</formatted>
                 </end>
               </flowTimes>
             </times>
@@ -4745,9 +4807,9 @@
             </status>
             <timers>
               <timer id="auto">
-                <time label="elapsed">6.5</time>
+                <time label="elapsed">11.2</time>
                 <time label="device">0</time>
-                <time label="system">6.5</time>
+                <time label="system">11.2</time>
                 <time label="ux">0</time>
               </timer>
             </timers>
@@ -4755,7 +4817,7 @@
           <parameters>
             <parameter type="handset">
               <name displayName="Device ID">handsetId</name>
-              <value>DD4A3714896782AF31F770D2871A4DDBDBD6632F</value>
+              <value>3133BB296C46FA2250362A227BA462A56ED11A45</value>
             </parameter>
           </parameters>
         </action>
