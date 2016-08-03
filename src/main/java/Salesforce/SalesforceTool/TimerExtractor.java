@@ -53,7 +53,7 @@ public class TimerExtractor
     	Integer offset = 500000;
     	String sTimeZone = args[5]; //"GMT+2";//"GMT-4"; //also possible GMT+2
 
-    	
+    	System.out.println("number of arguments: " +args.length);
     	if(args.length > 6)
         {    		
     		if (args[6].equals("LastSingleExecution")){
