@@ -38,25 +38,41 @@ public class TimerExtractor
 	static String user;
 	static String sCloudUrl = "";
 	static String passwordSalt = "Perfect";
+	static String excelpath;
 	//static Credentials credentials;
 	
     public static void main( String[] args )
     {  	
+    	System.out.println("started");
     	sCloudUrl = args[0];
     	user = args[1];
     	String password = StringEncrypt.decryptXOR(args[2], passwordSalt);
     	scriptKey = args[3];  
     	String excelPath = args[4];
     	Integer anchorTime = -1;
-    	Integer offset = 30000;
+    	Integer offset = 500000;
     	String sTimeZone = args[5]; //"GMT+2";//"GMT-4"; //also possible GMT+2
-     	
-    	///  To add single last Execution to Excel file
-    	AddLastExecutionToExcel(user, password, scriptKey, sTimeZone, excelPath );
+
     	
-    	///  To add a number of executions
-    	//AddExecutionsFromTimeframe(user, password, scriptKey, anchorTime, offset, sTimeZone, excelPath);
- 	    
+    	if(args.length > 6)
+        {    		
+    		if (args[6].equals("LastSingleExecution")){
+    			System.out.println("Getting Last Run results");
+    			///  To add single last Execution to Excel file
+    	    	AddLastExecutionToExcel(user, password, scriptKey, sTimeZone, excelPath );
+    		}
+    		
+    		else {
+    	    	///  To add a number of executions
+    			System.out.println("Getting all available Run results");
+    	    	AddExecutionsFromTimeframe(user, password, scriptKey, anchorTime, offset, sTimeZone, excelPath);
+    	 	    
+    		}
+        }
+    	
+    	
+    	
+
 	    System.out.print("FINISHED");
     }
     /**
