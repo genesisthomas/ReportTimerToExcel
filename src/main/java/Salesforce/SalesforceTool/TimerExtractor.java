@@ -37,20 +37,24 @@ public class TimerExtractor
 	static String scriptKey;
 	static String user;
 	static String sCloudUrl = "";
+	static String passwordSalt = "Perfect";
 	//static Credentials credentials;
 	
     public static void main( String[] args )
     {  	
     	sCloudUrl = args[0];
-    	user = StringEncrypt.decryptXOR(args[1], "Perfect");
-    	String password = StringEncrypt.decryptXOR(args[2], "Perfect");
+    	user = args[1];
+    	String password = StringEncrypt.decryptXOR(args[2], passwordSalt);
     	scriptKey = args[3];  
     	String excelPath = args[4];
     	Integer anchorTime = -1;
     	Integer offset = 30000;
     	String sTimeZone = args[5]; //"GMT+2";//"GMT-4"; //also possible GMT+2
      	
+    	///  To add single last Execution to Excel file
     	AddLastExecutionToExcel(user, password, scriptKey, sTimeZone, excelPath );
+    	
+    	///  To add a number of executions
     	//AddExecutionsFromTimeframe(user, password, scriptKey, anchorTime, offset, sTimeZone, excelPath);
  	    
 	    System.out.print("FINISHED");
@@ -82,10 +86,6 @@ public class TimerExtractor
 		    WriteResultsToExcel(excelPath, mTimerResults, sReportKey);
 		}    	    	
     	
-    	
-    	
-    	//Get Alternative Dom4J Document 
-	    
 	}
     
 	/** Retrieves last execution using REST, parses it and adds timers to excel. 
@@ -171,18 +171,10 @@ public class TimerExtractor
     	timerResults.put("ReportLink",reportLink);
     	
     	//	+++++ Getting Video Link
-    	//https://salesforce.perfectomobile.com/nexperience/videoPlayer.jsp?liveUri=rtmp://salesforce.perfectomobile.com/vod&serverId=null&file=/private/rajp@perfectomobile.com/Raj_SalesForceCaseScript_16-07-14_10_42_01_27441.xml.files/video/DD4A3714896782AF31F770D2871A4DDBDBD6632F_10_42_02_1106831.flv&manufacturer=Apple&model=iPhone-SE&videoWidth=640&videoHeight=1136
-    	//Node videoNode = document.selectSingleNode("execution/input/handsets/handset/recordings/recording/dataItems/dataItem/attachment");
     	Node videoNode = document.selectSingleNode("execution/input/handsets/handset/recordings/recording/dataItems/dataItem[@label=\"recordingDownload\"]/file");
     	String videoName="";
 		try {
 			videoName = videoNode.getStringValue();
-			/*videoName=videoName.replace("\\", "/");
-			videoName= "https://salesforce.perfectomobile.com/nexperience/videoPlayer.jsp?liveUri=rtmp://salesforce.perfectomobile.com/vod&serverId=null&file="+
-			"/"+privatepublic+
-			".files/"+
-			videoName +
-			"&manufacturer=Apple&model=iPhone-SE&videoWidth=640&videoHeight=1136";*/
 			System.out.println("This is the video: "+videoName);
 		} catch (Exception e) {
 			// TODO Auto-generated catch block
@@ -215,11 +207,9 @@ public class TimerExtractor
     		 
     		//+++++ Accessing timer value in s. Depends on order of dataitem!!!  
     		Node valueNode = timerElement.selectSingleNode(".//info/dataItems/dataItem[@label=\"actual\"]/value");
-     		//Node valueNode = timerElement.selectSingleNode(".//info/dataItems/dataItem[1]/value");
      		System.out.println("valueNode: " +valueNode.getStringValue());
      		//+++++ Accessing timer name. Depends on order of parameters!!!
      		Node nameNode = timerElement.selectSingleNode(".//parameters/parameter[1]/value");
-     		//Node nameNode = timerElement.selectSingleNode(".//parameters/parameter[@type=\"handset\"]/value");
      		System.out.println("nameNode: " +nameNode.getStringValue());
      		timerResults.put(nameNode.getStringValue(), valueNode.getStringValue());
          }
@@ -254,7 +244,6 @@ public static List<String> getReportIDs (String user, String password, String sc
 			
 			JSONObject json = new JSONObject(message);
 			JSONArray jsarray = json.getJSONArray("executions");
-			 //String result = json.getJSONObject("executions").getString("executionId");
 			
 			System.out.println("JSONArray Length: "+jsarray.length());
 			for (int i = 0; i < jsarray.length(); i++) {
@@ -292,7 +281,7 @@ public static List<String> getReportIDs (String user, String password, String sc
 					"&scriptKey="+scriptKey  +
 					"&time.offset="+offset.toString() +
 					"&time.type=completed");
-			//System.out.println(url.toString());			
+						
 			response = HttpClient.sendRequest(url);
 			InputStream instr = response.getResponseStream();
 			String message = org.apache.commons.io.IOUtils.toString(instr);
